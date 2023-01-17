@@ -1,0 +1,1140 @@
+.global-warning .close-icon{padding:10px;background: rgb(216,23,150);background: linear-gradient(270deg, rgba(216,23,150,1) 0%, rgba(142,63,197,1) 100%);}
+.profile-detail-banner .card{border:none; padding: 50px 30px;}
+.profile-detail-banner img{border:none;border-radius:0;}
+.btn-check:focus+.btn, .btn:focus {outline: 0;box-shadow: none !important;}
+.main-profile-img{display: flex; justify-content: space-between; align-items: center; flex-direction: column; height: 100%;}
+.card-wrapper{height: 100%;}
+/*html scroll*/
+html::-webkit-scrollbar {background-color: #000; width: 10px;}
+html::-webkit-scrollbar-button { background-color: #313132 }
+html::-webkit-scrollbar-track  { background-color:#000; }
+html::-webkit-scrollbar-track-piece  { background-color: #313132}
+html::-webkit-scrollbar-thumb  {  background:  linear-gradient(90deg, rgba(216,23,150,1) , rgba(142,63,197,1) 100%); }
+html::-webkit-scrollbar-corner { background-color:#000;  }
+html::-webkit-resizer {background-color:#000; }
+html{scrollbar-color:  #d81796 #000 !important; scrollbar-width: thin;}
+/*body scroll*/
+body::-webkit-scrollbar {background-color: #000; width: 10px;}
+body::-webkit-scrollbar-button { background-color: #313132 }
+body::-webkit-scrollbar-track  { background-color:#000; }
+body::-webkit-scrollbar-track-piece  { background-color: #313132}
+body::-webkit-scrollbar-thumb  {  background:  linear-gradient(90deg, rgba(216,23,150,1) , rgba(142,63,197,1) 100%); }
+body::-webkit-scrollbar-corner { background-color:#000;  }
+body::-webkit-resizer {background-color:#000; }
+body{scrollbar-color:  #d81796 #000 !important; scrollbar-width: thin;}
+/*tags*/
+h3 {margin: 1.5rem 0;font-size: 2rem;font-weight: 600;line-height: 1.2;color: #fff;-ms-word-wrap: break-word;word-wrap: break-word;}
+p {margin: 1.5rem 0;font-size: 16px;font-weight: 400;line-height: 1.5;-ms-word-wrap: break-word;word-wrap: break-word;color: #fff;}
+h4 {margin: 1.5rem 0;font-size: 1.5rem;font-weight: 600;line-height: 1.2;color: #fff;-ms-word-wrap: break-word;word-wrap: break-word;}
+/*connect walet area*/
+.wallet-connect-area .card{cursor: pointer;padding: 45px;}
+.wallet-connect-area {width: 100%;padding: 60px 0;background-size: cover;background-attachment: fixed;background-position: center;}
+.wallet-connect-area h3.my-3 {font-size: 2rem;font-weight: bold;}
+.wallet-connect-area .avatar-lg {height: 5rem;width: 5rem;}
+.wallet-connect-area img {margin: 0 0 10px;}
+.wallet-connect-area .single-wallet h4 {-webkit-transition: 0.3s;transition: 0.3s;margin-top: 20px;margin-bottom: 20px !important;}
+.wallet-connect-area .single-wallet p {color: var(--primary-p-color);}
+.wallet-connect-area .meta-tag {position: relative;color: #fff;}
+.wallet-connect-area .meta-tag .btn-filled, .wallet-connect-area .meta-tag .btn-outlined {font-size: 14px !important;position: relative;z-index: 99;}
+.meta-tag .btn-filled span, .meta-tag .btn-outlined span {padding: 12px 67px 12px !important;}
+/*card*/
+.card{/* cursor: pointer;  */padding: 1.5rem;border: none;border-radius: 10px !important;-webkit-box-shadow: 0 3px 20px 0px var(--primary-l-color);box-shadow: 0 3px 20px 0px var(--primary-l-color);-webkit-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);-webkit-transition-duration: 0.3s;transition-duration: 0.3s;-webkit-transition-property: opacity, -webkit-transform;transition-property: opacity, -webkit-transform;transition-property: opacity, transform;transition-property: opacity, transform, -webkit-transform;position: relative;background-color: rgba(0, 0, 0, 0.8) !important;border: 2px solid #3f284a;}
+.card:after {content: "";position: absolute;left: 0;top: 0;right: 0;bottom: 0;border-radius: 10px;background: rgb(216,23,150);background: linear-gradient(0deg, rgba(216,23,150,1) 0%, rgba(142,63,197,1) 100%);z-index: -1;}
+.card:hover{box-shadow: 0 0 15px  rgba(142,63,197,1);}
+.card:hover .meta-tag h4 {color: rgba(216,23,150,1) !important;}
+.card .card-body {-webkit-box-flex: 1;-ms-flex: 1 1 auto;flex: 1 1 auto;min-height: 1px;padding: 35px 0 0;}
+/*breadcrums area*/
+.breadcrumb-area {height: 300px;z-index: 1;}
+/*author area*/
+.author-area {width: 100%;padding: 60px 0;background-size: cover;background-attachment: fixed;background-position: center;}
+.author-area .card .image-over {position: relative;z-index: 1;height: 250px;width: 100%;margin: 0 auto;overflow: hidden; border-radius: 0;}
+.author-area .card .image-over .card-img-top {width: 100%;height: 100%;object-fit: contain;padding: 0;}
+.author-area .card-body {color: #fff;}
+.author-area .card .card-body .input-group {position: relative;z-index: 1;}
+.author-area .card .card-body .input-group .form-control {border-radius: 100px !important;background-color: transparent;border: 2px solid;height: 40px;padding: 1.5rem;-webkit-box-shadow: none;box-shadow: none;outline: none;}
+.author-area .card .card-body .input-group .input-group-append {position: absolute;height: 100%;top: 0;right: 0;border-radius: 100px;overflow: hidden;z-index: 4;}
+.author-area .card .card-body .input-group .input-group-append button {margin-right: 5px;padding: 12px 16px;background-color: transparent;color: var(--white-color);border: 0;outline: none;}
+.icon-docs:before {content: "\e040";}
+.card-caption .input-group input {padding-right: 50px !important;color: #ffff;}
+.author-area .item-form {padding: 0;}
+.author-area .item-form .form-group input, .author-area .item-form .form-group textarea, .author-area .item-form .form-group select, .author-area .create-item-form .form-group .custom-file-input, .author-area .item-form .form-group .custom-file-input, .author-area .item-form .form-group .custom-file-label, .author-area .item-form .form-group .custom-file-label::after {font-size: 1rem;font-weight: 500;color: #fff;padding: 15px;border:none;-webkit-box-shadow: none;box-shadow: none;    border-radius: 10px; background-color: #3f284a;-webkit-appearance: auto;-moz-appearance: auto;appearance: auto;-webkit-box-shadow: 0 5px 10px #000;box-shadow: 0 5px 10px #000;-webkit-transition: 0.5s;transition: 0.5s;}
+.author-area .item-form .form-group input, .author-area .item-form .form-group .custom-file-input, .author-area .item-form .form-group .custom-file-label, .author-area .item-form .form-group .custom-file-label::after {height: 50px;}
+form#create-nft .custom-file input {cursor: pointer;width: 100%;}
+label#nft-image-label {cursor: pointer;}
+.form-relative {position: relative;z-index: 99;}
+.author-area .item-form .form-group .custom-file-input:lang(en)~.custom-file-label::after {content: "Upload";padding: 0;margin: 0;height: 24px;position: absolute;box-shadow: none !important;right: 5px;top: 50%;transform: translateY(-50%);height: 85%;display: flex;justify-content: center;align-items: center;width: 75px;font-size: 14px;background: linear-gradient(0deg, rgba(216,23,150,1) 0%, rgba(142,63,197,1) 100%);}
+/*profile banner*/
+.profile-detail-banner .divider{height: 100%;}
+.profile-detail-banner .divider-in{ background-color: rgba(142,63,197,1); height: 100%; width: 3px; margin: 0 auto; display: block; border-radius: 10px;}
+.profile-detail-banner #nft-imasge-label {position: absolute;left: 0;width: 100%; cursor: pointer;}
+.profile .image-over {width: 230px !important;border-radius: 50% !important;overflow: auto;height: 230px !important;padding: 10px;border: 1px solid #d81796;}
+.profile .image-over  img{border-radius: 50%;}
+/*social icons*/
+.social-icons a {background-color: #fff;margin: 0 10px;color: #fff !important;border: 1px solid #fff;border-radius: 50%;width: 40px;height: 40px;display: flex;justify-content: center;align-items: center;}
+a.facebook{color: #1877f2 !important;}
+a.facebook:hover{color: #fff !important; border: 1px solid #fff;background-color: #1877f2 !important;}
+a.twitter{color: #1da1f2 !important;}
+a.twitter:hover{color: #fff !important; border: 1px solid #fff;background-color: #1da1f2 !important;}
+a.google-plus{color: #db4437 !important; }
+a.google-plus:hover{color: #fff !important; border: 1px solid #fff;background-color: #db4437 !important;}
+a.vine{color: #00b489 !important; }
+a.vine:hover{color: #fff !important; border: 1px solid #fff;background-color: #00b489!important;}
+/*react select*/
+.custom-select__single-value {color: #fff !important;}
+.css-9gakcf-option{background: linear-gradient(0deg, #d81796 0%, #8e3fc5 100%); color: #fff;}
+.css-1n7v3ny-option{background-color: transparent !important; color: #fff !important;}
+.css-1n7v3ny-option:hover{background: linear-gradient(0deg, #8e3fc5 0%, #d81796 100%); color: #fff !important;}
+.css-1n7v3ny-option:active, .css-1n7v3ny-option:focus{background-color: transparent !important; color: #fff !important;}
+.css-yt9ioa-option{color: #fff !important;}
+.css-yt9ioa-option:active{background-color: transparent !important; color: #fff !important;}
+.css-14el2xx-placeholder {color: #fff !important;}
+.css-tlfecz-indicatorContainer {color: #fff !important}
+.css-tlfecz-indicatorContainer:hover {color: #fff !important;}
+.css-1gtu0rj-indicatorContainer {color: #fff !important;}
+.css-1s2u09g-control{height: 55px; border-radius: 10px !important;}
+.css-1pahdxg-control{height: 55px; border-radius: 10px !important;}
+.css-319lph-ValueContainer{height: 55px;}
+/*no data table*/
+.no-data-table {background: linear-gradient(0deg, rgba(13,224,232,1) 0%, rgba(203,3,251,1) 100%);width: 100%;height: 50px;display: flex;justify-content: center;align-items: center;border-radius: 10px;margin: 20px 0px;}
+/*explore area*/
+.explore-area{ width: 100%; padding: 60px 0px; background-size: cover; background-attachment: fixed; background-position: center;}
+.explore-area .items.explore-items {padding: 30px 0px;}
+.intro { margin-bottom: 60px;}
+.side-toggle-btn { display: none;}
+.filter-wrapper { border-bottom: 2px solid #fff;  position: relative; top: 0px; overflow: auto; margin-right: 15px; margin-bottom: 0px;background-color: rgba(0, 0, 0, 0.8) !important; /* border: 2px solid #3f284a; */}
+.filter-wrapper::after{content: "";position: absolute;left: 0;top: 0;right: 0;bottom: 0;background: linear-gradient(0deg, rgba(216,23,150,1) 0%, rgba(142,63,197,1) 100%);z-index: -1;}
+.filter-div { padding: 15px 15px; background: #fff; color: #5a3e63; font-weight: 500; margin: 0 0 35px; position: relative;}
+.filter-div::after{content: "";position: absolute;bottom: -19px;left: 50%;-o-transform: translateX(-50%);-ms-transform: translateX(-50%);-moz-transform: translateX(-50%);-webkit-transform: translateX(-50%);transform: translateX(-50%);border-left: 20px solid transparent;border-right: 20px solid transparent;border-top: 20px solid #fff;}
+.filter-div svg { color: inherit;}
+.status-wrapper { padding: 0.8rem; justify-content: space-between; color: #fff; cursor: pointer; border-bottom: 1px solid #331f3a;  position: relative; z-index: 99;}
+.status-wrapper:last-of-type{border-bottom: none;}
+.status-wrapper:hover { background: linear-gradient(0deg, #d81796 0%, #8e3fc5 100%); color: #fff;}
+.statuses-boxex { padding: 16px 0; border: 1px solid; color: #fff; display: flex; justify-content: space-evenly; max-height: 300px; overflow-x: auto; flex-wrap: nowrap; position: relative; z-index: 2;background-color: #3F284B;}
+.statuses-boxex2 {background-color: #3F284B;}
+.on-auction.active {background-image:linear-gradient(0deg, #d81796 0%, #8e3fc5 100%);border: none;}
+.on-auction { border: 1px solid #5a3e63; padding: 0.5rem 1rem; border-radius: 2rem; cursor: pointer; transition: all ease-in-out 0.3s;}
+.on-auction:hover{ box-shadow: 0px 3px 7px #d81796; transform: translateX(-2px); -moz-transform: translateX(-2px); -ms-transform: translateX(-2px); -o-transform: translateX(-2px); -webkit-transform: translateX(-2px);}
+.side-box { width: 30px; height: 30px; display: inline-flex; font-size: 22px; padding: 10px; background-color: #8e3fc5; color: #fff; border-radius: 8px; justify-content: center; align-items: center; margin: 0 10px 0 0; transition: all ease-in-out 0.3s;}
+.tab-icon { display: flex; justify-content: center; align-items: center; transition:  all ease-in-out 0.3s;}
+.status-wrapper:hover .side-box{ box-shadow: 0 0 3px #fff;}
+.label-tag{ transition: all ease-in-out 0.3s;}
+.open.status-wrapper .tab-icon {transform: rotate(180deg);}
+.status-wrapper:hover .label-tag{ margin-left: 5px;}
+/*nft card*/
+.nfts-collection-wrapper .image-over { overflow: hidden; border-radius: 0px; height: 250px; width: 100%; }
+.nfts-collection-wrapper .image-over .card-img-top { object-fit: contain; width: 100%; height: 100%; max-width: 100%; max-height: 100%; border-radius: 0px;}
+.Tilt { position: relative; z-index: 99;height: 100%;}
+.nfts-collection-wrapper .card { margin: 5px 1% 20px; height: auto; border-radius: 10px !important; width: 18%; padding: 0 !important; overflow: hidden;display: inline-block;transition: all ease-in-out 0.3s;}
+.nfts-collection-wrapper .card .card-caption {padding: 10px 20px;}
+.nfts-collection-wrapper .card .card-body {padding: 0 !important;}
+.nfts-collection-wrapper .card .card-bottom {height: 22px;text-align: end;}
+.nfts-collection-wrapper .card-footer { border-top: 1px solid #522860;}
+.nfts-collection-wrapper .card:hover{box-shadow: 0 -1px 10px rgb(142 63 197) !important;}
+.nfts-collection-wrapper .card::after{border-radius: 10px !important;}
+.nfts-collection-wrapper .card .buy-btn{display: none;}
+.nfts-collection-wrapper .card:hover .buy-btn{display: inline-block;}
+.nfts-collection-wrapper .card .card-bottom span{height: auto !important;}
+.nfts-collection-wrapper .card .card-body a h5 {-webkit-line-clamp: 1 !important;}
+.nfts-collection-wrapper .nft-price{font-size: 14px; float: right;}
+.explore-area .card .seller span { width: 85px; margin-right: 10px;}
+.explore-area .card .seller a { width: calc(100% - 95px); -webkit-line-clamp: 1; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis; }
+.explore-area .card .seller a h6{width: 100%;overflow: hidden;text-overflow: ellipsis;display: inline-block; vertical-align: middle;white-space: nowrap;}
+.explore-area .card .seller a:hover{color: #d81796;}
+.explore-area .card .card-body h5{display: inline-block;color: #fff;}
+.explore-area .card .card-body h5:hover{color: #8e3fc5;}
+.card-caption { color: #fff;}
+.purple-color {color: #8e3fc5;}
+.pink-color{color: #d81796 !important;}
+.statuses-boxex2 {padding: 12px;color: #fff;}
+.statuses-boxex2 input, .select-custom-style > div {background-color: #3f284a;border: none;box-shadow: 0 0 10px #000;}
+.statuses-boxex2 input::placeholder{color: #fff;}
+input, textarea, select {width: 100%;height: 55px;background: no-repeat;-webkit-box-shadow: none;box-shadow: none;padding: 0.7rem 1rem;border-color: var(--primary-l-color);border-width: 2px;border-radius: 2px;color: #fff;}
+.min-max {border: 1px solid;padding: 0.5rem 2rem 0.5rem 2rem;}
+textarea.form-control {min-height: 150px !important;}
+.statuses-boxex .filter-item {margin-left: 0;cursor: pointer;padding: 10px; width: 100%; max-width: 331px;}
+.statuses-boxex .filter-item .filter-img {width: 30px;height: 30px;}
+.statuses-boxex .filter-item .collection-name {width: calc(100% - 38px); word-break: break-word; -ms-hyphens: auto; -moz-hyphens: auto; -webkit-hyphens: auto; -o-hyphens: auto; hyphens: auto;-webkit-line-clamp: 2; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis; }
+.statuses-boxex .filter-item .filter-img img {width: 100%;height: 100%;object-fit: cover;}
+.statuses-boxex .filter-item:hover, .statuses-boxex .filter-item.active {background: linear-gradient(0deg, rgba(13,224,232,1) 0%, rgba(203,3,251,1) 100%); color: #fff !important;}
+.no-data.border{border: 1px solid #8e3fc5; background: linear-gradient(0deg, rgba(13,224,232,1) 0%, rgba(203,3,251,1) 100%); display: flex; justify-content: center; align-items: center; height: 150px; border-radius: 10px; margin: 30px 0px;width: 100% !important;}
+.no-data.border p{margin: 0; color: #fff;}
+.button-wrapper .apply-btn{height: 55px; border: none;}
+.explore-area .btn-filled, .btn-outlined{border-radius:25px;overflow: hidden;background: linear-gradient(270deg, rgba(216,23,150,1) 0%, rgba(142,63,197,1) 100%);padding:1px;}
+.explore-area .btn-filled span, .explore-area .btn-outlined span{border-radius:25px;overflow: hidden;padding:15px 50px; color:#fff;}
+.explore-area .btn-filled span, .explore-area .btn-outlined:hover span{background: linear-gradient(270deg, rgba(216,23,150,1) 0%, rgba(142,63,197,1) 100%);}
+.explore-area .btn-outlined span, .explore-area .btn-filled:hover span{background:#090000;}
+/**/
+button.apply-btn[disabled] {opacity: 0.6;cursor: not-allowed;}
+button.apply-btn[disabled]:hover span{background: linear-gradient(270deg, rgba(216,23,150,1) 0%, rgba(142,63,197,1) 100%);}
+/*statuses-boxex scrollbar*/
+.statuses-boxex::-webkit-scrollbar {background-color: #000; width: 7px;}
+.statuses-boxex::-webkit-scrollbar-button { background-color: #313132 }
+.statuses-boxex::-webkit-scrollbar-track  { background-color:#000; }
+.statuses-boxex::-webkit-scrollbar-track-piece  { background-color: #313132}
+.statuses-boxex::-webkit-scrollbar-thumb  {  background:  linear-gradient(90deg, rgba(216,23,150,1) , rgba(142,63,197,1) 100%); }
+.statuses-boxex::-webkit-scrollbar-corner { background-color:#000;  }
+.statuses-boxex::-webkit-resizer {background-color:#000; }
+.statuses-boxex{scrollbar-color:  #d81796 #000 !important; scrollbar-width: thin;}
+/*scroll to top*/
+div#scroll-to-top {position: fixed;bottom: 30px;right: 30px;background: linear-gradient(270deg, rgba(216,23,150,1) 0%, rgba(142,63,197,1) 100%);color: #fff;padding: 10px;border-radius: 50%;width: 40px;height: 40px;display: flex;justify-content: center;align-items: center;z-index: 999999999;cursor: pointer;}
+div#scroll-to-top a{color: inherit;}
+/*faq page*/
+.faq-area{width: 100%;padding: 60px 0;background-size: cover;background-attachment: fixed;background-position: center;}
+.faq-area .accordian-button {background: linear-gradient(270deg, rgba(216,23,150,1) 0%, rgba(142,63,197,1) 100%);color: #fff !important;}
+.faq-area .card-header .btn {position: relative;border-radius: 100px !important;padding: 10px 34px;text-align: left;font-weight: bold;}
+.faq-area .angle-left{transition: all ease-in-out 0.3s;display: inline-block;font-weight: bold;}
+.faq-area .card-header .btn.collapsed .angle-left {transform: rotateZ(0deg);}
+.faq-area .card-header .btn .angle-left {transform: rotateZ(90deg);}
+/*collections page*/
+.popular-collections-area .card .image-over .seller .seller-thumb {position: relative;border: 3px solid rgba(255, 255, 255, 0.12);border-radius: 50%;-webkit-box-shadow: inset 0 0 0 2px rgb(9 8 13 / 15%);box-shadow: inset 0 0 0 2px rgb(9 8 13 / 15%);padding: 5px;}
+.popular-collections-area .card .image-over .seller .seller-thumb::before {content: "";top: 0;width: calc(5rem - 6px);height: calc(5rem - 6px);opacity: 0;-webkit-box-shadow: 0 0 0 2px rgb(9 8 13 / 15%);box-shadow: 0 0 0 2px rgb(9 8 13 / 15%);-webkit-transform: scale(0.8);transform: scale(0.8);}
+.avatar-lg {height: 5rem !important;width: 5rem !important;}
+.seller-thumb img {width: 100%;height: 100% !important;object-fit: cover;max-width: 100% !important;}
+.rounded-circle {border-radius: 50%!important;max-width: 110px !important;}
+.popular-collections-area .card .image-over .seller .seller-thumb::after {content: "";top: 5px;width: calc(5rem - 16px);height: calc(5rem - 16px);background-color: rgba(9, 8, 13, 0.15);-webkit-box-shadow: 0 0 0 0 transparent;box-shadow: 0 0 0 0 transparent;}
+.popular-collections-area .card .image-over .seller .seller-thumb::before, .popular-collections-area .card .image-over .seller .seller-thumb::after {position: absolute;left: 0;right: 0;margin: auto;border-radius: 50%;-webkit-transition: all 0.2s ease 0s;transition: all 0.2s ease 0s;}
+.explore-area .card .seller {/* display: flex; */height: 24px;-webkit-line-clamp: 1;display: -webkit-box;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;}
+.popular-collections-area .card .image-over .seller {height: auto;display: block;position: absolute;top: calc(100% - 2.5rem);left: 50%;-webkit-transform: translateX(-50%);transform: translateX(-50%);z-index: 2;}
+.popular-collections-area .image-over { position: relative; border-radius: 10px; height: 200px; width: 100%; overflow: unset;}
+.popular-collections-area .image-over img{ object-fit: cover; width: 100%; height: 100%; max-width: 100%; max-height: 100%; border-radius: 0px;}
+/*collection card*/
+.collection-card-wrapper .card { margin: 5px 1% 20px; height: auto; border-radius: 10px !important; width: 18%; padding: 0 !important; overflow: hidden;display: inline-block;transition: all ease-in-out 0.3s;}
+.collection-card-wrapper .card .card-caption {padding: 10px 20px 10px;}
+.collection-card-wrapper .card  .card-footer {padding: 10px 20px;}
+.collection-card-wrapper .card .card-body a h5 {font-size: 16px;}
+.collection-card-wrapper .card .card-caption .category-name{font-size: 14px;}
+/*collection page */
+.explore-menu {padding: 30px 0 0;margin: 0 0 30px;justify-content: end;}
+.explore-area .explore-menu .btn {background: inherit;color: #fff;font-size: 14px;font-weight: 600;cursor: pointer;outline: none;position: relative;-webkit-box-shadow: none;box-shadow: none;flex: 0;margin: 0 0 0 4px;transition: all ease-in-out 0.3s;border-radius: 100px;}
+.explore-area .explore-menu .btn:hover, .explore-area .explore-menu .btn.active {color: #fff;background: linear-gradient(270deg, rgba(216,23,150,1) 0%, rgba(142,63,197,1) 100%);border: 1px solid #8e3fc5;}
+.explore-area .explore-menu .btn span {display: inline-block; vertical-align: top; padding: 3px 10px;white-space: nowrap;}
+.explore-area .explore-menu .btn  input{height: unset;}
+.collection-tabs-radio{display: none !important;}
+/* .popular-collections-area .card{height: 100%;} */
+.popular-collections-area .card .card-body span, .single-seller .seller-info a, .single-seller .seller-info span {-webkit-line-clamp: 1;display: -webkit-box;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;}
+.explore-area .card .card-body a {vertical-align: top;}
+/* .explore-area .card .card-body a h5 {margin: 0 !important; -webkit-transition: 0.3s;transition: 0.3s;-webkit-line-clamp: 1;display: -webkit-box;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;word-break: break-word;} */
+.explore-area .card .card-body a h5 {margin: 0 !important;-webkit-transition: 0.3s;transition: 0.3s;overflow: hidden;text-overflow: ellipsis;word-break: break-word;white-space: nowrap;max-width: 100%;display: inline-block !important;}
+/*my-collection*/
+.my-col-btn a{color: #fff !important; transition: all ease-in-out 0.3s;}
+.arrow-icon-right{color: #fff !important; transition: all ease-in-out 0.3s;}
+.my-col-btn:hover a{color: #d81796 !important;}
+.my-col-btn:hover .arrow-icon-right{color: #d81796 !important; transform: translateX(5px);}
+/* create collection */
+.padding-wrapper {padding: 150px 0px;}
+form#create-collection { width: 100%; margin: auto; position: relative; max-width: 670px;}
+.author-area .create-item-form { padding: 50px 30px !important;}
+.custom-file-label { position: absolute; left: 0; width: 100%;}
+.form-group { margin-bottom: 1rem;}
+.input-group-prepend { display: flex;}
+.input-group>.input-group-prepend>.input-group-text { border-top-right-radius: 0 !important; border-bottom-right-radius: 0 !important;background: linear-gradient(270deg, rgba(216,23,150,1) 0%, rgba(142,63,197,1) 100%) !important;}
+.noleft-border-radius { border-top-left-radius: 0; border-bottom-left-radius: 0;}
+.input-group-text { border-radius: 10px !important;}
+.image-over-1 {position: relative;overflow: visible;z-index: 1;border-radius: 10px;height: 150px;max-width: 75%;overflow: hidden;border: 1px solid rgba(216,23,150,1);padding: 10px; margin: 0 auto;}
+.author-area .card .image-over-1 .card-img-top {width: 100%;height: 100%;object-fit: cover;border-radius: 10px;}
+.image-over-2 {position: relative;overflow: visible;z-index: 1;border-radius: 10px;height: 150px;max-width: 100%;overflow: hidden;border: 1px solid rgba(216,23,150,1);padding: 10px;}
+.author-area .card .image-over-2 .card-img-top {width: 100%;height: 100%;object-fit: cover;border-radius: 10px;}
+/*colection details*/
+.copy-icon:focus {outline: none !important;}
+/*create nft*/
+.author-area .item-form .form-group .form-check-input {   padding: 0 !important; border-radius: 5px !important; width: 20px;height: 20px;padding: 10px;-webkit-appearance: inherit;-moz-appearance: inherit;appearance: inherit;background-color: var(--card-bg-color);border: 2px solid;}
+form label {width: 100%;}
+.form-check-label {margin-bottom: 0;}
+.form-check-inline {display: -ms-inline-flexbox !important;display: inline-flex !important;-ms-flex-align: center;align-items: center;padding-left: 0;margin-right: 0.75rem;}
+.attribute-row {padding: 20px 0 0;}
+.btn-plus {transition: all ease-in-out 0.3s;border-radius: 40px;background: linear-gradient(270deg, rgba(216,23,150,1) 0%, rgba(142,63,197,1) 100%);width: 80px;height: 35px;border: none;display: inline-flex;justify-content: center;align-items: center;color: #fff;}
+.btn-minus {transition: all ease-in-out 0.3s;width: 30px !important;height: 30px;border-radius: 100%;background: linear-gradient(270deg, rgba(216,23,150,1) 0%, rgba(142,63,197,1) 100%);justify-content: center !important;align-items: center !important;position: absolute;right: 4px;top: 9px;display: flex;border: none;color: white;}
+/*items detal*/
+.item-details-area .item-info img { min-height: 300px; height: 100%;object-fit: contain;transition: opacity 400ms ease 0s;width: 100%; border-radius: 10px; box-shadow: 0px 0px 5px #d41999;  margin: 0 0 30px; overflow: hidden; margin-left: 0px !important;} 
+.item-details-area .offer-img img{margin-left: 4px !important;cursor: pointer;}
+.single-seller .collection-boxes{margin-left: 1rem; width: calc(100% - 5rem); }
+.single-seller .collection-boxes a {max-width: 100%;display: inline-block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.single-seller .collection-boxes .item-values {max-width: 100%;display: inline-block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap; cursor: pointer;}
+.single-seller .collection-boxes .collection-box-name  {max-width: 100%;display: block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+img { max-width: 100%; height: auto; vertical-align: middle;}
+.item-details-area .netstorm-tab.nav-tabs {border-bottom: 2px solid var(--card-bg-color);justify-content: space-between; margin: 0 0 30px;}
+.item-details-area .netstorm-tab li {margin: 0;}
+.item-details-area .netstorm-tab li a {position: relative;display: inline-block;margin: 0 10px;padding: 10px 0;}
+.item-details-area .netstorm-tab li:first-of-type a {margin-left: 0;}
+.item-details-area .netstorm-tab li a::after {position: absolute;content: '';height: 3px;width: 0;bottom: -2.5px;left: 0;background-color: #d81796;visibility: hidden;opacity: 0;-webkit-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;}
+.item-details-area .netstorm-tab li a.active::after {width: 100%;visibility: visible;opacity: 1;}
+.item-details-area .netstorm-tab li a h5{color: #fff;}
+.item-details-area .netstorm-tab li a.active h5 {color: #d81796;}
+.seller-info.justify-content-center.align-items-center.flex-fill {color: #fff;}
+.avatar-sm {height: 3rem !important;width: 3rem !important; min-height: 3rem !important;}
+.avatar-md {height: 4rem !important;width: 4rem !important; min-height: 4rem !important;}
+.item-details-area .tab-content .owner h6 {-webkit-transition: 0.3s;transition: 0.3s;color: #fff;}
+.item-details-area .tab-content .owner:hover h6 {color: #d81796;}
+.item-thumb.text-center {border-radius: 26px;overflow: hidden;}
+a:not(.btn),
+a:link:not(.btn),
+a:visited:not(.btn),
+a:hover:not(.btn),
+a:active:not(.btn) {color: #d81796;text-decoration: none;}
+.btn-refresh, .btn-report, .btn-share, .btn-like {display: inline-flex;flex-direction: row;width: 50px;height: 50px;-webkit-box-align: center;align-items: center;border-radius: 0px !important;-webkit-box-pack: center;justify-content: center;font-size: 12px;font-weight: 500;padding: 10px;background-color: rgba(0, 0, 0, 0.6) !important;border: 1px solid #000 !important;color: #fff !important; transition: all 0.2s ease 0s;position: relative;-webkit-user-select: none;-webkit-touch-callout: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+.btn-refresh::after, .btn-report::after, .btn-share::after, .btn-like::after{content: "";position: absolute;left: 0;top: 0;right: 0;bottom: 0;border-radius: 0px;background: rgb(216,23,150);background: linear-gradient(0deg, rgba(216,23,150,1) 0%, rgba(142,63,197,1) 100%);z-index: -1;}
+.btn-refresh:hover, .btn-report:hover, .btn-share:hover, .btn-like:hover {transition: all 0.2s ease 0s;box-shadow: 0px 0px 10px #d81796;}
+.btn-dropdown.dropdown-toggle::after {display: none;}
+.btn-dropdown{background-color: transparent !important;padding: 0 !important;border: none !important;}
+.btn-like, .btn-like::after {border-top-left-radius: 10px !important;border-bottom-left-radius: 10px !important;}
+.btn-share, .btn-share::after {border-top-right-radius: 10px !important;border-bottom-right-radius: 10px !important;}
+.main-img-banner{border-radius: 10px;border: 1px solid rgba(216,23,150,1);overflow: hidden;}
+.like-section{-webkit-box-align: center;align-items: center;display: flex;font-weight: 500;padding: 10px 30px;height: 55px;width: 100%;background: transparent;}
+.like-count {-webkit-user-select: none;-webkit-touch-callout: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+.item-details-area .owner .owner-meta h6 {-webkit-transition: 0.3s;transition: 0.3s;word-break: break-all;color: #fff;}
+.item-details-area .owner .owner-meta h6:hover {color: #d81796;}
+.item-info-list.mt-4 {color: #fff;}
+.items .item {margin-bottom: 30px;}
+.nft-head h3 {max-width: calc(100% - 210px);-webkit-hyphens: auto;-ms-hyphens: auto;-o-hyphens: auto;-moz-hyphens: auto;hyphens: auto;}
+.nft-head .nft-head-buttons{width: 200px;}
+.nft-head-buttons .dropdown-menu.show {transform: translate3d(-167px, 48px, 0px) !important;padding: 0;border-radius: 10px;}
+.nft-head-buttons .dropdown-menu{background-color: #231532 !important;}
+.nft-head-buttons .dropdown-item {padding: 16px !important;}
+.nft-head-buttons .dropdown-item:hover{background: linear-gradient(0deg, rgba(216,23,150,1) 0%, rgba(142,63,197,1) 100%);color: #fff !important;}
+.nft-head-buttons .dropdown-item svg {align-self: center;order: 2;margin-right: 16px;flex-shrink: 0;}
+.nft-head-buttons .dropdown-item:first-of-type{border-top-left-radius: 10px;border-top-right-radius: 10px;}
+.nft-head-buttons .dropdown-item:last-of-type{border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;}
+.offer-listed-section{width: calc(100% - 70px);}
+.item-details-area .item .form-check-input {padding: 0 !important;border-radius: 5px !important;width: 20px;height: 20px;padding: 10px;-webkit-appearance: inherit;-moz-appearance: inherit;appearance: inherit;background-color: var(--card-bg-color);border: 2px solid;}
+/*transaction btn*/
+.transaction-button{width: 30px;height: 30px;border-radius: 50%;display: flex;justify-content: center;align-items: center;background-color: #1877f2;color: #fff !important;margin-left: 20px;}
+.transaction-button .text-info{color: inherit !important;}
+.transaction-detail{width: calc(100% - 50px);word-break: break-word;}
+/*live auctions page*/
+.live-auctions-area {width: 100%;padding: 60px 0;background-size: cover;background-attachment: fixed;background-position: center;}
+.live-auctions-area .image-over {position: relative;z-index: 1;height: 215px;width: 100%;margin: 0 auto; overflow: hidden;}
+.live-auctions-area .image-over .card-img-top {width: 100%;height: 100%;object-fit: contain;padding: 0;}
+.live-auctions-area .card-body{padding: 0 !important;}
+.live-auctions-area .card-footer {border-top: 1px solid #522860;padding: 6px 12px;}
+.live-auctions-area .card .buy-btn{display: none;}
+.live-auctions-area .card:hover .buy-btn{display: inline-block;}
+.live-auctions-area .nft-price{font-size: 14px;}
+.live-auctions-area .card .card-body a h5 {margin: 0 !important;-webkit-transition: 0.3s;transition: 0.3s;overflow: hidden;text-overflow: ellipsis;word-break: break-word;white-space: nowrap;max-width: 100%;display: inline-block !important;}
+.live-auctions-area .card .card-body h5 {color: #fff !important;}
+.live-auctions-area .card .card-body h5:hover {color: #8e3fc5 !important;}
+.live-auctions-area .countdown-container { width: 100% !important; text-align: center;}
+.live-auctions-area .card .seller span { width: 85px; margin-right: 10px;}
+.live-auctions-area .card .seller a { width: calc(100% - 95px); -webkit-line-clamp: 1; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis; }
+.live-auctions-area .card .seller a h6{width: 100%;overflow: hidden;text-overflow: ellipsis;display: inline-block; vertical-align: middle;white-space: nowrap;}
+.live-auctions-area .card .seller a:hover{color: #d81796;}
+/*live-auctions card*/
+.live-auctions-wrapper .card { margin: 5px 1% 20px; height: auto; border-radius: 10px !important; width: 18%; padding: 0 !important; overflow: hidden;display: inline-block;transition: all ease-in-out 0.3s;}
+.live-auctions-wrapper .card .card-caption {padding: 8px 12px 12px;}
+.live-auctions-wrapper .card .card-body a h5 {font-size: 16px;}
+.live-auctions-wrapper .card .card-caption .category-name{font-size: 14px;}
+.live-auctions-wrapper .card .card-bottom {text-align: end;}
+/*item details auction card*/
+.item-auction-wrapper .card { margin: 5px 1% 20px; height: auto; border-radius: 10px !important; width: 98% !important; padding: 0 !important; overflow: hidden;display: inline-block;transition: all ease-in-out 0.3s;}
+.item-auction-wrapper .card .card-caption {padding: 8px 12px 12px;}
+.item-auction-wrapper .card  .card-footer {padding: 6px 12px;}
+.item-auction-wrapper .card .card-body a h5 {font-size: 16px;}
+.item-auction-wrapper .card .card-caption .category-name{font-size: 14px;}
+.item-auction-wrapper .card .card-bottom {text-align: end;}
+/*spiner*/
+.spiner-loader {position: absolute;right: 15px;top: 50%;transform: translateY(-50%);}
+.spinner-border {border: 0.25em solid #d81796 !important;border-right-color: #8e3fc5 !important;}
+/*collections details*/
+.author-area.explore-area.popular-collections-area {width: 100%;padding: 0 0 60px;background-size: cover;background-attachment: fixed;background-position: center;}
+.d-flex.collection-detail-container {flex-direction: column;justify-content: center;align-items: center;}
+.collection-preview.collection-card .seller {position: relative;top: -60px;left: 0;}
+.seller-thumb.avatar-lg-collection-details {height: 10rem !important;width: 10rem !important;}
+.seller-thumb .collection-logo {width: 100%;}
+.items.four-box-column {display: flex;padding-bottom: 1rem;flex-wrap: wrap;justify-content: center;position: relative;padding-top: 50px;}
+.seller-info {display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;}
+.explore-area .card .seller {display: flex;height: 24px;-webkit-line-clamp: 1;display: -webkit-box;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;}
+.single-seller .seller-info a, .single-seller .seller-info span {word-break: break-all;}
+svg.svg-inline--fa.fa-clone.fa-w-16 {font-size: 4rem;}
+svg.svg-inline--fa.fa-users.fa-w-20 {font-size: 3.5rem;color: #fff;padding: 0rem 0rem 0rem 0rem;}
+.popular-collections-area .collection-detail-container .card.no-hover {width: 270px;height: auto;}
+.search-filters {flex: 0 0 350px;height: 100%;}
+.filter-wrapper {flex-shrink: 0;position: sticky;top: 0px;left: -2px;overflow: auto;height: 100%;margin-right: 15px;background: #000; position: relative;}
+.collection-wrapper {width: 100%; height: 100%;}
+/* .popular-collections-area .nfts-collection-wrapper { padding: 0 20px 0 0;} */
+.popular-collections-area .nfts-collection-wrapper .nft-collection {overflow-x: hidden;overflow-y: auto !important;max-height: 800px;}
+.collection-detail-container  .nfts-collection-wrapper {height: 100% !important; }
+.popular-collections-area .d-flex.collection-wrapper.active .filter-wrapper {display: block;border-bottom: 2px solid #fff; }
+.explore-area .items.explore-items {padding: 30px 0px;height: calc(100% - 105px);}
+.author-detail-container .explore-area .items.explore-items {padding: 30px 0px; height: auto !important; }
+.collection-wrapper .side-toggle-btn { z-index: 99;display: none;position: absolute;right: 50px !important;background: linear-gradient(270deg, rgba(216,23,150,1) 0%, rgba(142,63,197,1) 100%);color: #fff !important;border: 1px solid #d81796;padding: 5px 10px;top: 20px;}
+.collection-detail-card .explore-area .card{height: auto !important;}
+.collection-detail-wrapper .side-toggle-btn {display: none !important;}
+/*collection details*/
+.collection-wrapper.collection-detail-wrapper .search-filters {height: 800px;}
+/*webkit scroll*/
+.nft-collection::-webkit-scrollbar {background-color: #000; width: 5px;}
+.nft-collection::-webkit-scrollbar-button { background-color: #313132 }
+.nft-collection::-webkit-scrollbar-track  { background-color:#000; }
+.nft-collection::-webkit-scrollbar-track-piece  { background-color: #313132}
+.nft-collection::-webkit-scrollbar-thumb  {  background:  linear-gradient(90deg, rgba(216,23,150,1) , rgba(142,63,197,1) 100%); }
+.nft-collection::-webkit-scrollbar-corner { background-color:#000;  }
+.nft-collection::-webkit-resizer {background-color:#000; }
+.nft-collection{scrollbar-color:  #d81796 #000 ;scrollbar-width: thin;}
+/*collection buttons*/
+.collection-action-btns {position: absolute;top: 5px;left: 0;right: 0;}
+.items.four-box-column .edit.seller {display: inline-block;vertical-align: top;margin: 0 5px 10px;border: 1px solid;padding: 8px 15px;border-radius: 8px;min-width: 180px;text-align: center;transition: all ease-in-out 0.3s;}
+.items.four-box-column .edit.seller:hover {background:  linear-gradient(90deg, rgba(142,63,197,1) , rgba(216,23,150,1) 100%); color: #fff;border-color: rgba(216,23,150,1);}
+.items.four-box-column .edit.seller svg {margin-right: 5px;}
+.btn-danger {color: #fff;background-color: #dc3545;border-color: #dc3545;padding: 12px 67px 12px !important;border-radius: 25px !important;}
+.btn-danger:hover {background-color: #090000 !important;color: #dc3545 !important;border-color: #dc3545;}
+/*create collection*/
+#create-collection textarea::-webkit-scrollbar {background-color: #000; width: 5px;}
+#create-collection textarea::-webkit-scrollbar-button { background-color: #313132; }
+#create-collection textarea::-webkit-scrollbar-track  { background-color:#000; }
+#create-collection textarea::-webkit-scrollbar-track-piece  { background-color: #313132;}
+#create-collection textarea::-webkit-scrollbar-thumb  {  background:  linear-gradient(90deg, rgba(216,23,150,1) , rgba(142,63,197,1) 100%); }
+#create-collection textarea::-webkit-scrollbar-corner { background-color:#000;  }
+#create-collection textarea::-webkit-resizer {background-color:#000; }
+#create-collection textarea{scrollbar-color:  #d81796 #000 ;scrollbar-width: thin;resize: none !important;}
+/**/
+.countdown-times {color: #fff;}
+.collection-p {word-break: break-word;-webkit-hyphens: auto;-moz-hyphens: auto;-ms-hyphens: auto;-o-hyphens: auto;hyphens: auto;display: inline-block;width: 100%;}
+/*modals*/
+.modal-content {background-color: #090000 !important;box-shadow: 0px 0px 10px #d81796 !important;color: #fff !important;}
+.modal-header{border-bottom: none !important;}
+.modal-footer{border-top: none !important;}
+.price-text.position-relative {width: 100%;}
+.price-text button { max-height: 55px;}
+.price-text.position-relative label.text-danger {position: absolute;bottom: 0px;left: 5px;}
+.price-wrapper.d-flex {width: 100%;}
+.d-flex.bid-main-tag {width: 100%;}
+.bid-select-1{width: 150px; position: relative; height: 55px;}
+.bid-select{width: 150px; position: relative; height: 55px;}
+.bid-select .form-control{appearance: auto !important;}
+/* .bid-select::before{content: "\f107";font-family: "Font Awesome 5 Free";right: 10px;position:absolute;top:50%;transform: translateY(-50%); z-index: 1; font-weight: 600;} */
+.modal-content select {width: 100%; background: linear-gradient(90deg, rgba(216,23,150,1) , rgba(142,63,197,1) 100%)!important;border-radius: 10px;  border-top-right-radius: 0px !important;border-bottom-right-radius: 0px !important;position: relative;}
+.modal-content select > option {color: #fff; background-color: #3f284a;}
+.modal-content .bid-amount{width: calc(100% - 155px) !important;}
+.modal-content .budle-wrapper{width: calc(100% - 155px);}
+.modal-content .form-control:focus{box-shadow: none !important;}
+/**/
+.properties-tab .m-3.card.no-hover {width: 48%;margin: 10px 0px !important;}
+textarea.form-control {font-size: 1rem;font-weight: 500;color: #fff;padding: 15px;border: none;-webkit-box-shadow: none;box-shadow: none;border-radius: 10px;background-color: #3f284a;-webkit-appearance: auto;-moz-appearance: auto;appearance: auto;-webkit-box-shadow: 0 5px 10px #000;box-shadow: 0 5px 10px #000;-webkit-transition: 0.5s;transition: 0.5s;}
+textarea.form-control:focus{outline: none !important; background-color: #3f284a !important;box-shadow: none !important;color: #fff !important;}
+input{font-size: 1rem;font-weight: 500;color: #fff;padding: 15px;border: none;-webkit-box-shadow: none;box-shadow: none;border-radius: 10px !important;background-color: #3f284a;-webkit-appearance: auto;-moz-appearance: auto;appearance: auto;-webkit-box-shadow: 0 5px 10px #000;box-shadow: 0 5px 10px #000;-webkit-transition: 0.5s;transition: 0.5s;}
+input:focus, textarea:focus{outline: none !important; background-color: #3f284a !important;box-shadow: none !important;-webkit-text-fill-color: #fff;caret-color: white;}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus{caret-color: white; -webkit-text-fill-color: #fff !important;-webkit-box-shadow: 0 0 0px 1000px #3f284a  inset !important;box-shadow: 0 0 0px 1000px #3f284a inset !important; transition: background-color 1000s ease-in-out 0s !important; border-radius: 10px;}
+/*report nft modal*/
+.modal-footer button {height: 50px;}
+.modal-footer .btn-filled span, .modal-footer .btn-outlined span {padding: 11px 60px 11px !important;}
+/*trading history */
+.activity-area  {width: 100%;padding: 60px 0;background-size: cover;background-attachment: fixed;background-position: center;}
+.trading-buttons button { border: none; margin: 0px 5px;}
+.activity-area .form-group {margin-bottom: 1rem;align-items: center;}
+.cancelBtn{background: red !important; color: #fff !important;border: 1px solid red !important;}
+.cancelBtn:hover{background: #fff !important; color: red !important;border: 1px solid red !important;}
+.applyBtn{background: #d81796 !important; color: #fff !important;border: 1px solid #d81796 !important;}
+.applyBtn:hover{background: #fff !important; color: #d81796 !important;border: 1px solid #d81796 !important;}
+.table-dark { --bs-table-bg: #3f284a !important; color: #fff !important; border-color: #3f284a !important;}
+/*sell nft screen*/
+.sell-nft .card {border: none;padding: 50px 30px;}
+span.head-wrapper {font-size: 1.5rem;color: #fff;font-weight: 500;display: block;}
+.tabs-container {width: 100%;}
+.market-tabs-wrapper .nav-item-wrapper {width: 49%;}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {color: #fff !important;background-color: #231532 !important;border: 1px solid #231532 !important;box-shadow: 0px 0px 5px 0px rgba(216,23,150,1);}
+.nav-item-wrapper.nav-item a {cursor: pointer;text-align: center;background-color: transparent !important;color: #fff !important;border: 1px solid #fff !important;}
+.divider{height: 100%;}
+.divider .divider-in {background-color: rgba(142,63,197,1);height: 100%;width: 3px;margin: 0 auto;display: block;border-radius: 10px;}
+.summary-container .image-over {position: relative;overflow: visible;z-index: 1;border-radius: 2px;height: 230px;width: 230px;border-radius: 50%;overflow: hidden;border: 1px solid rgba(216,23,150,1);padding: 10px;margin: 0 auto;}
+.summary-container .image-over img{width: 100%;height: 100%;object-fit: cover;padding: 0;border-radius: 50%;}
+.nft-select .form-control {transition: all ease-in-out 0.3s;background-color: #3f284a;-webkit-appearance: auto;-moz-appearance: auto;appearance: auto;-webkit-box-shadow: 0 5px 10px #000;box-shadow: 0 5px 10px #000;color: #fff;border: none;border-radius: 10px;}
+.nft-select .form-control:focus {transition: all ease-in-out 0.3s;background-color: #3f284a;-webkit-appearance: auto;-moz-appearance: auto;appearance: auto;-webkit-box-shadow: 0 5px 10px #000;box-shadow: 0 5px 10px #000;color: #fff;border: none;border-radius: 10px;}
+.nft-select select:focus > option:checked { background:  linear-gradient(90deg, rgba(216,23,150,1) , rgba(142,63,197,1) 100%);background-color: #d81796;}
+.nft-select select option:checked, .nft-select select option:hover {background-color: #d81796;}
+.nft-select select > option:hover {background-color: #8e3fc5;}
+.complete-listing-btn{border: none; width: 100%}
+.complete-listing-btn span { padding: 12px 67px 12px !important; }
+input[type="time"]::-webkit-calendar-picker-indicator{filter: invert(60%) sepia(20%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);}
+input[type="datetime-local"]::-webkit-calendar-picker-indicator{filter: invert(60%) sepia(20%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);}
+svg.svg-inline--fa.fa-exclamation-circle {color: #d81796 !important;}
+svg.svg-inline--fa.fa-exclamation-circle:focus{outline: none !important;}
+/*new sell nft*/
+.sell-nft .nft-select select#currency {border-top-right-radius: 0px !important;border-bottom-right-radius: 0px !important; width: 26%;background: linear-gradient(90deg, rgba(216,23,150,1) , rgba(142,63,197,1) 100%)!important;}
+.sell-nft .nft-select select#currency > option {color: #fff; background-color: #3f284a;}
+.sell-nft .ethereum-input { width: 74%; text-align: end;}
+.sell-nft .ethereum-input .input-wrap{margin: 0 0 10px;display: block;}
+/* .sell-nft .ethereum-input .input-wrap input{box-shadow: none !important;} */
+.sell-nft .align-right{text-align: end;}
+.sell-nft .ethereum-input input.amount-btn.flex-fill {border-top-left-radius: 0px !important;border-bottom-left-radius: 0px !important;}
+.sell-nft input.amount-btn {border-top-left-radius: 0px !important;border-bottom-left-radius: 0px !important; }
+.reverse-price.d-flex {justify-content: space-between;align-items: center; /* padding: 1rem 0rem 2rem 0rem; */}
+.sell-nft .switch {position: relative;display: inline-block;width: 56px;height: 25px;}
+.sell-nft input[type=checkbox] {width: 20px;height: 20px;}
+.sell-nft .switch input {opacity: 0;width: 0;height: 0;}
+.sell-nft .market-tab-content input {border-color: #fff;box-shadow: 0 5px 10px #000 !important;}
+.sell-nft .slider {position: absolute;cursor: pointer;top: -5px;left: 0;right: 0;bottom: 5px;background-color: #ccc;-webkit-transition: .4s;transition: .4s;}
+.sell-nft .slider.round {border-radius: 34px;}
+.sell-nft .slider:before {position: absolute;content: "";height: 23px;width: 23px;left: 4px;bottom: 1px;background-color: white;-webkit-transition: .4s;transition: .4s;}
+.sell-nft .slider.round:before {border-radius: 50%;}
+.sell-nft input:checked + .slider {background-color: #d81796;}
+.sell-nft input:checked + .slider:before {-webkit-transform: translateX(26px);-ms-transform: translateX(26px);transform: translateX(26px);}
+.sell-nft .ethereum-btn {width: 200px;padding: 7px 20px;}
+.sell-nft button.ethereum-btn {padding: 7px 55px 7px 55px;border: none;outline: none;border-radius: 10px;background:  linear-gradient(90deg, rgba(216,23,150,1) , rgba(142,63,197,1) 100%);display: flex;align-items: center;justify-content: center;cursor: pointer;color: #fff;border-top-right-radius: 0px !important; border-bottom-right-radius: 0px !important;width: 26%;}
+/*date picker*/
+.date-picker {transition: all ease-in-out 0.3s;background-color: #3f284a;-webkit-appearance: auto;-moz-appearance: auto;appearance: auto;-webkit-box-shadow: 0 5px 10px #000;box-shadow: 0 5px 10px #000;color: #fff;border: none;border-radius: 10px; width: 350px;padding: 0.5rem;width: 100%;height: 55px;display: flex;justify-content: center;align-items: center;}
+.budle-wrapper {width: 350px;}
+.calender-btn {background: none;color: #fff;border: none;width: 100%;outline: none !important;}
+.daterangepicker {color: #fff !important;background-color: #231532 !important;border: 1px solid #231532 !important;}
+.daterangepicker:before {top: -7px;border-right: 7px solid transparent;border-left: 7px solid transparent;border-bottom: 7px solid #8e3fc5 !important;}
+.daterangepicker:after {top: -6px;border-right: 6px solid transparent;border-bottom: 6px solid #8e3fc5 !important;border-left: 6px solid transparent;}
+.daterangepicker .calendar-table {border: 1px solid #3f284a !important;background-color: #3f284a !important;color: #fff;}
+.daterangepicker .ranges li.active {background-color: unset;color: #fff;background:  linear-gradient(90deg, rgba(142,63,197,1) , rgba(216,23,150,1) 100%);}
+.daterangepicker .ranges li:hover{color: #fff;background:   linear-gradient(90deg, rgba(142,63,197,1) , rgba(216,23,150,1) 100%)}
+.daterangepicker.show-ranges.ltr .drp-calendar.left {border-left: 1px solid #231532 !important;}
+.daterangepicker .drp-buttons {border-top: 1px solid #231532 !important;}
+.daterangepicker td.in-range {background-color: #8e3fc5 !important;color: #fff !important;}
+.daterangepicker td.off, .daterangepicker td.off.in-range, .daterangepicker td.off.start-date, .daterangepicker td.off.end-date {background-color: #3f284a !important;border-color: transparent !important;color: #fff !important;border-radius: 0px !important;}
+.daterangepicker td.disabled, .daterangepicker option.disabled {color: #999;cursor: not-allowed;text-decoration: line-through;}
+.daterangepicker td.active, .daterangepicker td.active:hover {background-color: unset;background: linear-gradient(0deg, rgba(13,224,232,1) 0%, rgba(203,3,251,1) 100%) !important;}
+.daterangepicker td.available:hover, .daterangepicker th.available:hover{background: linear-gradient(0deg, rgba(13,224,232,1) 0%, rgba(203,3,251,1) 100%) !important; color: #fff !important; border-color: transparent !important;}
+.daterangepicker .calendar-table .next span, .daterangepicker .calendar-table .prev span {border: solid #fff !important;border-width: 0 2px 2px 0 !important;}
+/*contact page */
+#contact-form.item-form {padding: 50px 30px;}
+.no-border{border: none !important;}
+select {padding: 0px 15px !important;}
+h5 {font-size: 20px;font-weight: bold;}
+.text-red{color: red;}
+/*how it works*/
+.h-it-w h5{color: #8e3fc5;}
+.h-it-w .hiw-content {width: 80%;margin: 0 auto;}
+/*integration page*/
+.integration-form {padding: 50px 30px !important;}
+/*aurthor details*/
+.author-area {width: 100%;padding: 60px 0;background-size: cover;background-attachment: fixed;background-position: center;}
+.author-detail-container {flex-direction: column;justify-content: center;align-items: center;*}
+/* .author-area .nfts-collection-wrapper {height: 800px;overflow-x: hidden;overflow-y: hidden;} */
+.author-area .collection-wrapper.collection-detail-wrapper .search-filters {height: 970px !important;}
+.collection-detail-container .collection-wrapper.collection-detail-wrapper .search-filters {height: 904px !important;}
+.author-area .nav-tabs .nav-item.show .nav-link, .author-area .nav-tabs .nav-link.active {background-color: none;color: #fff !important;background:  linear-gradient(90deg, rgba(142,63,197,1) , rgba(216,23,150,1) 100%) !important;border-color: #d81796;*}
+.author-area .nav-tabs .nav-link{color: #fff !important;*}
+.author-area .nav-tabs .nav-link:focus, .author-area .nav-tabs .nav-link:hover {border-color: transparent transparent transparent !important;*}
+.author-preview.author-card .seller {position: relative;top: -60px;left: 0;*}
+.author-area .seller-thumb.avatar-lg-author-container {height: 10rem !important;width: 10rem !important;*}
+.aurthor-wallet-address{ width: 500px !important; overflow: hidden;}
+.aurthor-wallet-address input{padding: 0px 20px !important;}
+.aurthor-wallet-address .copy-div{z-index: 4;}
+/*general*/
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) { border-top-left-radius: 0 !important; border-bottom-left-radius: 0 !important;}
+.double-input { border-top-left-radius: 0 !important; border-bottom-left-radius: 0 !important;}
+/*activity page*/
+.activity-area .netstorm-tab.nav-tabs {border-bottom: 2px solid #522860;margin: 0 0 30px;}
+.activity-area .netstorm-tab li {margin: 0;}
+.activity-area .netstorm-tab li a {position: relative;display: inline-block;margin: 0 10px;padding: 10px 0;}
+.activity-area .netstorm-tab li:first-of-type a {margin-left: 0;}
+.activity-area .netstorm-tab li a h5{color: #fff;}
+.activity-area .netstorm-tab li a.active h5 {color: #d81796;}
+.activity-area .netstorm-tab li a::after {position: absolute;content: '';height: 3px;width: 0;bottom: -2.5px;left: 0;background-color: #d81796;visibility: hidden;opacity: 0;-webkit-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;}
+.activity-area .netstorm-tab li a.active::after {width: 100%;visibility: visible;opacity: 1;}
+.activity-area .tab-content .single-tab-list{margin: 5px 5px 15px;padding: 15px;border-radius: 10px;border: none;-webkit-box-shadow: 0 3px 20px 0px var(--primary-l-color);box-shadow: 0 3px 20px 0px var(--primary-l-color);-webkit-transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);-webkit-transition-duration: 0.3s;transition-duration: 0.3s;-webkit-transition-property: opacity, -webkit-transform;transition-property: opacity, -webkit-transform;transition-property: opacity, transform;transition-property: opacity, transform, -webkit-transform;position: relative;background-color: rgba(0, 0, 0, 0.8) !important;border: 2px solid #3f284a;}
+.activity-area .tab-content .single-tab-list:after {content: "";position: absolute;left: 0;top: 0;right: 0;bottom: 0;border-radius: 10px;background: linear-gradient(0deg, rgba(216,23,150,1) 0%, rgba(142,63,197,1) 100%);z-index: -1;}
+.activity-area .tab-content .single-tab-list:hover{box-shadow: 0 0 15px  rgba(142,63,197,1);}
+.activity-area .tab-content .single-tab-list img {border-radius: 6px;}
+.activity-area .tab-content .activity-content {word-break: break-word;width: calc(100% - 104px);-ms-hyphens: auto;-moz-hyphens: auto;-o-hyphens: auto;-webkit-hyphens: auto;hyphens: auto;}
+.activity-area .tab-content .activity-content  a{display: inline-block;}
+/*page 404 */
+.not-found {padding: 60px 0;height: 500px;}
+.not-found h1{font-size: 40px; color: #d81796; margin: 0 0 30px;}
+/*privacy policy*/
+.privacy-policy b{color: #8e3fc5;}
+/*live auctions */
+.live-auctions-area .slick-track {margin-left: 0;}
+.live-auctions-area .slick-slide .card {width: 90% !important;margin: 5px 5% 20px;}
+.auction-user {width: calc(100% - 56px);}
+img.avatar-sm.user-image.rounded-circle {padding: 0;object-fit: cover;}
+/*view button*/
+.view-button {color: #fff !important; padding: 0 !important;}
+.view-button:hover {color: #d81796 !important;}
+.view-button:hover .right-arrow{ transform: translateX(5px);}
+.right-arrow{transition: all ease-in-out 0.3s;}
+/**/
+.card-caption .countdown-wrapper div {font-size: 13px;}
+.nft-head-buttons span svg {font-size: 16px;}
+.rounded-border{border-radius: 6px !important;}
+.rounded-border img{border-radius: 6px !important;min-height: auto !important;}
+/**/
+.favourite-section{width: 100%;padding: 60px 0;background-size: cover;background-attachment: fixed;background-position: center;}
+/*nft-reporting*/
+.rc-pagination-item{ background: linear-gradient(90deg, rgba(13,224,232,1) 0%, rgba(203,3,251,1) 100%) !important;  border: 1px solid #d81796 !important; font-weight: 500; color: #fff !important;}
+.rc-pagination-item-active { font-weight: 500; background: linear-gradient(0deg, rgba(216,23,150,1) 0%, rgba(142,63,197,1) 100%) !important; border: 1px solid #d81796 !important; color: #fff !important;}
+.rc-pagination-prev .rc-pagination-item-link, .rc-pagination-next .rc-pagination-item-link{ background: linear-gradient(45deg, rgba(13,224,232,1) 0%, rgba(203,3,251,1) 100%) !important; border: 1px solid #d81796 !important; font-weight: 500; color: #fff !important; font-size: 25px !important; line-height: 10px;}
+.nft-report-table {min-width: 1120px !important;}
+.td-pink-color{color: #d81796; transition: all ease-in-out 0.3s;}
+.td-pink-color:hover{-ms-transform: translate(5px);-moz-transform: translate(5px);-o-transform: translate(5px);-webkit-transform: translate(5px);transform: translate(5px);}
+.nft-report-table tbody td {vertical-align: middle;}
+.nft-report-table tbody th {vertical-align: middle;}
+.nft-report-table td a p{margin-bottom: 0 !important;}
+/*table responsive*/
+.table-responsive::-webkit-scrollbar {background-color: #000; width: 7px;}
+.table-responsive::-webkit-scrollbar-button { background-color: #313132; }
+.table-responsive::-webkit-scrollbar-track  { background-color:#000; }
+.table-responsive::-webkit-scrollbar-track-piece  { background-color: #313132;}
+.table-responsive::-webkit-scrollbar-thumb  {  background:  linear-gradient(90deg, rgba(216,23,150,1) , rgba(142,63,197,1) 100%); }
+.table-responsive::-webkit-scrollbar-corner { background-color:#000;  }
+.table-responsive::-webkit-resizer {background-color:#000; }
+.table-responsive{scrollbar-color:  #d81796 #000 ;scrollbar-width: thin;}
+/*nft report detail*/
+.nft-report .form-control:disabled, .nft-report .form-control[readonly]{font-size: 1rem;font-weight: 500;color: #fff;padding: 15px;border: none;-webkit-box-shadow: none;box-shadow: none;border-radius: 10px;background-color: #3f284a;-webkit-appearance: auto;-moz-appearance: auto;appearance: auto;-webkit-box-shadow: 0 5px 10px #000;box-shadow: 0 5px 10px #000;-webkit-transition: 0.5s;transition: 0.5s; cursor: not-allowed;}
+.nft-report .form-check-label {margin-bottom: 0;margin: 20px 0px;}
+/*ck-editor nft-report*/
+.ck.ck-editor__main>.ck-editor__editable{background: #3f284a !important;border: 1px solid #3f284a !important; color: #fff;  min-height: 150px;border-bottom-left-radius: 8px !important; border-bottom-right-radius: 8px !important;}
+.ck.ck-editor__main>.ck-editor__editable:not(.ck-focused) {border-color: #3f284a !important;}
+.ck.ck-toolbar {background: #3f284a !important;border: 1px solid #3f284a !important; color: #fff; }
+button.ck.ck-button.ck-off {color: #fff;}
+.ck.ck-button:not(.ck-disabled):hover, a.ck.ck-button:not(.ck-disabled):hover{color: #000;}
+.ck.ck-dropdown .ck-dropdown__panel .ck-list{background: #3f284a !important;border: 1px solid #3f284a !important; color: #fff;}
+.ck.ck-list__item .ck-button.ck-on{background-color: #ffda54; color: #000;}
+.ck.ck-list__item .ck-button.ck-on:hover:not(.ck-disabled){background-color: #ffda54; color: #000;}
+.ck.ck-list__item .ck-button:hover:not(.ck-disabled){background-color: #ffda54; color: #000;}
+.ck.ck-list__item .ck-button.ck-on{background:  linear-gradient(90deg, rgba(216,23,150,1) , rgba(142,63,197,1) 100%) !important; color: #fff !important; }
+.ck.ck-list__item .ck-button:hover:not(.ck-disabled){background:  linear-gradient(90deg, rgba(142,63,197,1), rgba(216,23,150,1) 100%)  !important; color: #fff !important;}
+.ck.ck-button.ck-on:not(.ck-disabled):hover, a.ck.ck-button.ck-on:not(.ck-disabled):hover, 
+.ck.ck-button:not(.ck-disabled):hover, a.ck.ck-button:not(.ck-disabled):hover,
+.ck.ck-button.ck-on, a.ck.ck-button.ck-on{background-color: transparent !important; color: #fff !important;}
+/*headder search list*/
+.header .list-group {background: #433958;border-radius: 4px;position: absolute;left: 10px;width: calc(100% - 20px);z-index: 999999;}
+.list-group-item {position: relative;display: block;padding: 0.5rem 1rem;color: #fff !important;text-decoration: none;background-color: transparent !important;border: 1px solid rgba(0,0,0,.125);}
+.header .list-group .list-group-item.active, .header .list-group .list-group-item:hover {background:  linear-gradient(90deg, rgba(216,23,150,1) , rgba(142,63,197,1) 100%) !important;color: #fff !important;border: none;}
+.navbar-search .list-group .list-group-item {padding: 10px 10px;color: #fff;border-radius: 0;}
+.list-group-item:first-child {border: none;}
+/**/
+.item-details-area .tab-content .single-tab-list {margin: 1.5rem 0;}
+/**/
+.react-confirm-alert-overlay {background: rgba(0, 0, 0, 0.8) !important;}
+.react-confirm-alert-body {width: 610px !important;text-align: center !important;background: #3f284a !important;color: #fff !important;}
+.react-confirm-alert-button-group {justify-content: center !important;margin-top: 30px;}
+.react-confirm-alert-button-group button{border-radius:20px !important;font-size:16px !important;line-height:20px;overflow: hidden;color:#fff !important;background: linear-gradient(0deg, rgba(13,224,232,1) 0%, rgba(203,3,251,1) 100%) !important; padding: 9px 16px !important; border: 1px solid #1da1f2 !important}
+.react-confirm-alert-button-group button:hover{background: #fff !important;  border: 1px solid #1da1f2 !important; color: #1da1f2 !important;}
+/*aurthor-section-area*/
+.aurthor-section-area{width: 100%;padding: 60px 0;background-size: cover;background-attachment: fixed;background-position: center;}
+/* table */
+.table{table-layout: fixed;}
+.table-responsive {overflow: auto !important;}
+/*ranking table*/
+.ranking-table{min-width: 1120px; width: 100%;} 
+.ranking-table .td-collection{width: 485px;}
+.ranking-table .td-start{width: 60px;}
+.ranking-table .td-volume{width: 150px;}
+.ranking-table .td-hours{width: 150px;}
+.ranking-table .td-days{width: 150px;}
+.ranking-table .td-assets{width: 150px;}
+.ranking-table .td-owners{width: 150px;}
+.ranking-table th {vertical-align: middle;}
+.ranking-table td {vertical-align: middle;}
+.ranking-table .p-1 {width: 50px;height: 50px;overflow: hidden;margin: auto;margin-right: 10px;}
+.ranking-table .p-1 img{width: 100%;height: 100%;object-fit: cover;}
+.ranking-table .p-2{width: calc(100% - 60px);margin: 0 !important;}
+.ranking-table .td-item{width: 500px;}
+.ranking-table .td-price{width: 190px;}
+.ranking-table .td-quantity{width: 190px;}
+.ranking-table .td-fee{width: 368px;}
+.ranking-table .td-earning{width: 368px;}
+/*trading history table*/
+.trading-table .td-start{width: 50px;}
+.trading-table .td-date{width: 415px;}
+.trading-table .td-type{width: 415px;}
+.trading-table .td-volume{width: 415px;}
+/*trading button */
+.trading-buttons .select-date{background-color: #3f284a !important;border: none !important;box-shadow: 0 0 10px #000;height: 55px;border-radius: 10px !important;padding: 2px 25px !important;}
+.trading-buttons .btn-outlined{height: 55px;}
+.trading-buttons .btn-outlined span{padding: 13px 50px 15px !important;}
+/*nft reporting table*/
+.nft-reporting-table .td-start{width: 52px;}
+.nft-reporting-table .td-nft-report{width: 311px;}
+.nft-reporting-table .td-reported-to{width: 311px;}
+.nft-reporting-table .td-status{width: 311px;}
+.nft-reporting-table .td-reported-at{width: 311px;}
+/*gifts table*/
+.gifts-table .td-start{width: 52px;}
+.gifts-table .td-card{width: 270px;}
+.gifts-table .td-code{width: 170px;}
+.gifts-table .td-description{width: 654px;}
+.gifts-table .td-discount{width: 150px;text-align: center;}
+/*audio player*/
+audio {width: 100%;background-color: #f1f3f4;border-radius: 10px;}
+.item-detail-image{border-radius: 10px;box-shadow: 0px 0px 5px #d41999;}
+/*profile-img*/
+.profile-img-in .image-over {width: 230px !important;height: 230px !important;border-radius: 50% !important;overflow: hidden;border: 1px solid #d41999;padding: 10px;}
+.profile-img-in .image-over img{width: 100%;height: 100%;object-fit: cover;border-radius: 50%;}
+/*create-nft*/
+.create-nft .image-over {width: 230px !important;height: 230px !important;border-radius: 50% !important;overflow: hidden;border: 1px solid #d41999;padding: 10px;}
+.create-nft .image-over img{width: 100%;height: 100%;object-fit: cover;border-radius: 50%;}
+/**/
+.our-creator-card {height: 100%;}
+.our-creator-card .social-icons{height: 56px;}
+.our-creator-card .social-icons a{margin: 0 8px !important;}
+.creator-image-over{overflow: hidden !important; border-radius: 0px !important;}
+/*favourite nft  card*/
+.favourite-collection .card { margin: 5px 1% 20px; height: auto; border-radius: 10px !important; width: 18%; padding: 0 !important; overflow: hidden;display: inline-block;transition: all ease-in-out 0.3s;}
+.favourite-collection .card .card-caption {padding: 10px 20px 10px;}
+.favourite-collection .card  .card-footer {padding: 10px 20px;border-top: 1px solid #522860;}
+.favourite-collection .card .card-caption .category-name{font-size: 14px;}
+.favourite-collection  .image-over {overflow: hidden;border-radius: 0px;height: 215px;width: 100%;}
+.favourite-collection .image-over .card-img-top {object-fit: contain;width: 100%;height: 100%;max-width: 100%;max-height: 100%;border-radius: 0px;}
+.favourite-collection .card .card-body {padding: 0 !important;}
+.favourite-collection .card .card-body a h5 { margin: 0 !important;-webkit-transition: 0.3s;transition: 0.3s;overflow: hidden;text-overflow: ellipsis;word-break: break-word;white-space: nowrap;max-width: 100%;display: inline-block !important;font-size: 16px;}
+.favourite-collection .card .card-bottom {height: 22px;text-align: end;}
+.favourite-collection .card .buy-btn{display: none;}
+.favourite-collection .card:hover .buy-btn{display: inline-block;}
+/*new*/
+.favourite-collection .card .seller span {width: 85px;margin-right: 10px;}
+.favourite-collection .card .seller a {width: calc(100% - 95px);}
+.favourite-collection .card .seller a h6 {width: 100%;overflow: hidden;text-overflow: ellipsis;display: inline-block;vertical-align: middle;white-space: nowrap;}
+/*react audio player*/
+.react-jinke-music-player .music-player-controller {background:  linear-gradient(90deg, rgba(216,23,150,1) , rgba(142,63,197,1) 100%) !important;background-color: transparent !important;border: 1px solid rgba(216,23,150,1) !important;border-radius: 10px !important;color: #fff !important;}
+.react-jinke-music-player-main .music-player-panel {background-color: #3f284a !important;box-shadow: 0 0 3px #3f284a !important;}
+.react-jinke-music-player-main .music-player-panel .panel-content .rc-slider-handle, .react-jinke-music-player-main .music-player-panel .panel-content .rc-slider-track {background-color: rgba(216,23,150,1) !important;}
+.react-jinke-music-player-main.light-theme svg {color: rgba(216,23,150,1) !important;}
+.react-jinke-music-player .controller-title svg{color: #fff !important;}
+.react-jinke-music-player-main svg:active, .react-jinke-music-player-main svg:hover {color: rgba(216,23,150,1) !important;}
+.react-jinke-music-player-main.light-theme .music-player-panel {background-color: #e4e4e4 !important;box-shadow: 0 1px 2px 0 rgb(0 34 77 / 5%) !important;color: #000 !important;}
+.react-jinke-music-player-main .progress-bar {background-color: #3f284a !important;}
+.react-jinke-music-player-main.light-theme .progress-bar {background-color: #e4e4e4 !important;}
+.react-jinke-music-player-main.light-theme .rc-switch-checked {background-color: rgba(142,63,197,1) !important;border: 1px solid rgba(142,63,197,1) !important;}
+.react-jinke-music-player {position: absolute !important;top: 120px !important;left: 35px !important;}
+.react-jinke-music-player-mobile {background-color: rgba(63, 40, 74, 0.9) !important;color: #fff;}
+.react-jinke-music-player-main.light-theme .react-jinke-music-player-mobile {background-color: rgba(228, 228, 228, 0.9) !important;color: #000;}
+.react-jinke-music-player-mobile-header-title {font-size: 28px;font-weight: 600;}
+.react-jinke-music-player .music-player-controller {height: 60px !important; width: 60px !important;}
+.react-jinke-music-player-main .music-player-panel .panel-content .player-content .audio-lists-btn {display: none !important;}
+.react-jinke-music-player {display: none;}
+.react-jinke-music-player-main .music-player-panel .panel-content .player-content .next-audio svg, .react-jinke-music-player-main .music-player-panel .panel-content .player-content .prev-audio svg {display: none;}
+.react-jinke-music-player-main.light-theme .theme-switch .rc-switch-checked {background-color: rgba(216,23,150,1)!important;border: 1px solid rgba(216,23,150,1) !important;}
+.react-jinke-music-player-main.light-theme span.group.play-btn svg { background-color: #fff; border-radius: 50%;}
+.react-jinke-music-player-main .progress-bar {overflow: visible;}
+.react-jinke-music-player-main.light-theme .music-player-panel .img-content {display: none;}
+.react-jinke-music-player-main .music-player-panel .panel-content .img-rotate {display: none;}
+/*mobile view*/
+.react-jinke-music-player-mobile-cover {display: none;}
+.react-jinke-music-player-mobile-progress .rc-slider-handle, .react-jinke-music-player-mobile-progress .rc-slider-track {background-color: rgba(216,23,150,1) !important;}
+.react-jinke-music-player-mobile-operation.group .items .item:last-of-type{display: none !important;}
+.react-jinke-music-player-mobile-toggle.text-center.group span.group.prev-audio, .react-jinke-music-player-mobile-toggle.text-center.group span.group.next-audio {display: none;}
+.react-jinke-music-player-mobile-singer.text-center.group {display: none;}
+/*comission icon*/
+/**/
+.c-scale{filter: grayscale(1)}
+.d-scale{filter: sepia(100%) hue-rotate(190deg) saturate(500%);}
+.cd-scale {filter: sepia(100%) saturate(1200%) hue-rotate(288deg);}
+/*c*/
+.commission-icon {width: 30px;height: 30px;position: absolute;top: 8px;right: 8px;background-color: #000;z-index: 99;border-radius: 6px;display: flex;justify-content: center;align-items: center;color: #fff;cursor: pointer;}
+.commission-icon .commission-in{font-size: 18px;width: 18px;}
+.commission-icon::before {font-family: "Font Awesome 5 Free";font-weight: 900;position: absolute;color: #fff;font-size: 10px;left: 50%;top: 50%;transform: translate(-18%, -50%);}
+/*cd*/
+.commission-icon-cd {width: 40px;height: 30px;position: absolute;top: 8px;right: 8px;background-color: #e30e58;z-index: 99;border-radius: 6px;display: flex;justify-content: center;align-items: center;color: #fff;cursor: pointer;}
+.commission-icon-cd .commission-in{font-size: 18px;width: 18px;}
+.commission-icon-cd::before {font-family: "Font Awesome 5 Free";font-weight: 900;position: absolute;color: #fff;font-size: 10px;left: 50%;top: 50%;transform: translate(-18%, -50%);}
+/*d*/
+.commission-icon-d {width: 30px;height: 30px;position: absolute;top: 8px;right: 8px;background-color: #1877f2;z-index: 99;border-radius: 6px;display: flex;justify-content: center;align-items: center;color: #fff;cursor: pointer;}
+.commission-icon-d .commission-in{font-size: 18px;width: 18px;}
+.commission-icon-d::before {font-family: "Font Awesome 5 Free";font-weight: 900;position: absolute;color: #fff;font-size: 10px;left: 50%;top: 50%;transform: translate(-18%, -50%);}
+/*dont copy text*/
+.dont-copy-text{-webkit-user-select: none;-webkit-touch-callout: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+.dont-copy-text::selection{background-color: transparent;}
+.dont-copy-text:focus{outline: none !important; background-color: transparent !important;border-color: #fff !important; color: #fff;}
+/*activity-logo-section*/
+.activity-logo-section .avatar-lg {height: 5rem !important;width: 5rem !important;}
+.activity-logo-section .commission-icon {width: 25px;height: 25px;top: 3px;right: 3px;}
+.activity-logo-section .commission-icon-cd {width: 30px;height: 25px;top: 3px;right: 3px;}
+.activity-logo-section .commission-icon-d {width: 25px;height: 25px;top: 3px;right: 3px;}
+.activity-logo-section .commission-icon-d .commission-in{font-size: 13px;width: 13px;}
+.activity-logo-section .commission-icon-cd .commission-in{font-size: 13px;width: 13px;}
+.activity-logo-section .commission-icon .commission-in{font-size: 13px;width: 13px;}
+/*signup-page*/
+.signup-card{ padding: 45px !important; color: #fff !important;}
+.signup-card .form-check.form-check-inline { width: 100%;}
+.signup-card .btn-filled { font-size: 14px !important; position: relative; z-index: 99;}
+.signup-card .btn-filled span{ padding: 12px 67px 12px !important;}
+/*sell nft*/
+.sell-nft-section .image-over{overflow: visible !important;}
+.sell-nft-section .image-over .commission-icon, .sell-nft-section .image-over .commission-icon-d  {width: 40px !important;height: 40px !important;top: 20px !important;right: 2px !important;border-radius: 50% !important;}
+.sell-nft-section .image-over .commission-icon-cd {width: 45px !important;height: 45px !important;top: 20px !important;right: 2px !important;border-radius: 50% !important;}
+/*stake nft */
+.stake-select{width: 185px;}
+.stake-select select{width: 100%;}
+.stake-ethereum-input{width: calc(100% - 185px);}
+.stake-select select {border-top-right-radius: 0px !important;border-bottom-right-radius: 0px !important;}
+.stake-ethereum-input input {border-top-left-radius: 0px !important;border-bottom-left-radius: 0px !important;}
+.srv-validation-message {line-height: 40px;}
+/**/
+.form-control {color: #fff !important;background-color: #3f284a !important;border: 1px solid #3f284a !important;}
+.input-group-text {color: #fff !important;background-color: #3f284a !important;border: 1px solid #3f284a !important;}
+/*time icon color change*/
+input[type="time"]::-webkit-calendar-picker-indicator{display: none;}
+input[type="time"]{position:relative;}   
+input[type="time"]::before {content: "\f017";font-family: "Font Awesome 5 Free";right: 10px;position:absolute;top:50%;transform: translateY(-50%);}
+/*react tool tip*/
+.__react_component_tooltip.show {word-break: break-all !important;max-width: 100%;}
+/**/
+.stake-select-in{-moz-appearance: none !important;-webkit-appearance: none !important;appearance: none !important; background-image: none !important;}
+.stake-select-in::-ms-expand {display: none !important;}
+/**/
+#logo-placeholder{object-fit: cover !important;}
+/*craete nft formats*/
+.format-main-head{font-size: 18px; font-weight: normal; display: block;}
+.format-heads{font-size: 14px; font-weight: normal;color: #8e3fc5;}
+.formats{font-size: 12px; font-weight: normal;}
+.tooltip .pink-color {color: #d81796 !important;font-size: 18px;cursor: pointer;}
+.tooltip {position: relative !important;display: inline-block !important;opacity: 1 !important;font-size: 18px; font-weight: bold;font-family: 'Poppins' !important; }
+.tooltip .tooltiptext {box-shadow: 0 0 3px 0px rgb(153, 107, 172); visibility: hidden;width: 500px;background-color: #2a0021;color: #fff;text-align: center;border-radius: 6px;padding: 5px 0;position: absolute;z-index: 1;top: 0%;left: -2506%;margin-left: -60px;opacity: 0;transition: opacity 0.3s;display: flex;flex-wrap: wrap; padding: 30px 5px 6px;}
+.tooltip .tooltiptext > div {width: 25%; padding: 0px 3px;}
+.tooltip .tooltiptext::after {content: "";position: absolute;top: 0%;left: 50%;margin-left: -5px;border-width: 5px;border-style: solid;border-color: #555 transparent transparent transparent;}
+.tooltip:hover .tooltiptext {visibility: visible;opacity: 1;}
+.tooltip .tooltiptext::after{display: none;}
+.create-nft-cross{position: absolute; right: 13px !important;top: 7px !important;border: none !important;left: auto !important; display: none;}
+/*two views*/
+.create-nft-tooltip .desktop-view{display: block !important;}
+.create-nft-tooltip .mobile-view{display: none !important;}
+.create-nft-tooltip .desktop-view.tooltip .tooltiptext {padding: 10px 5px 6px !important;}
+/**/
+.rh5v-DefaultPlayer_controls {bottom: 0px !important;background-color: rgba(42, 0, 33, 0.9) !important;border-bottom-left-radius: 5px !important;border-bottom-right-radius: 5px !important;}
+.rh5v-DefaultPlayer_video {border-radius: 5px !important;}
+.rh5v-Overlay_inner {background-color: rgba(42, 0, 33, 0.9) !important;}
+.rh5v-DefaultPlayer_video:hover{box-shadow: 0px 0px 5px #2a0021 !important;}
+/*costest modal*/
+.contest-modal .cross-icon {position: absolute;right: 15px;top: 10px;cursor: pointer;color: #fff;font-size: 20px;}
+.contest-modal .cross-icon:hover{color: #d81796;}
+.contest-modal .modal-body{padding: 20px 50px 30px !important;}
+.contest-modal .contest-name{font-size: 20px; color: rgba(216,23,150,1); }
+.contest-modal .slick-prev:hover:before, 
+.contest-modal .slick-next:hover:before{opacity: 1 !important;}
+.contest-modal .slick-prev:focus:before, 
+.contest-modal .slick-next:focus:before{opacity: 0.75 !important;}
+.contest-modal .slick-prev:focus:hover:before, 
+.contest-modal .slick-next:focus:hover:before{opacity: 1 !important;}
+/*staking div*/
+.stacking-head{display: block; color: #d81796; margin: 0 0 10px;}
+.staking-parts{margin: 8px 0px; padding: 0px 6px;}
+.staking-parts-1{max-width: 102px;}
+.staking-parts-2{max-width: 202px;}
+.staking-parts-3{max-width: 172px;}
+.staking-values{max-width: 100%; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; display: block;}
+/*gift cards*/
+.gift-items {display: flex;align-items: center;flex-wrap: wrap;}
+.gift-items .card-wrapper {min-height: 201px;position: relative;width: 48%;margin: 0 1% 20px;border-radius: 10px; overflow: hidden;}
+.gift-items .card-wrapper:hover{box-shadow: 1px 1px 8px #d81796; -webkit-box-shadow: 1px 1px 8px #d81796;}
+.gift-items .card-wrapper::after{content: "";position: absolute;left: 0;top: 0;right: 0;bottom: 0;background: linear-gradient(0deg, rgba(216,23,150,1) 0%, rgba(142,63,197,1) 100%);z-index: -1;}
+.gift-items .gift-bg {background-color: rgba(0, 0, 0, 0.8);width: 200px;position: absolute;top: -1px;left: -1px;bottom: -1px;clip-path: polygon(0 0, 66% 0, 100% 100%, 0 100%);}
+.gift-items .gift-bg img {width: 70px;margin-left: 30px;margin-top: 20px;}
+.gift-items .discount-section{z-index: 999;position: absolute;top: 50%;left: 16%;transform: translateY(-50%);width: 120px;}
+.gift-items .discount-image {position: relative;}
+.gift-items .discount-circle {position: absolute;top: 54%;left: 50%;transform: translate(-50%, -50%);color: #000;text-align: center;}
+.gift-items .discount-circle .discount-percent{font-size: 30px;font-weight: 700;display: block;line-height: 10px;}
+.gift-items .discount-circle .discount-text{font-size: 12px;  }
+.gift-items .gift-content {padding: 53px 20px 63px 230px;display: flex;flex-direction: column;justify-content: center;}
+.gift-items .gift-content h2{font-family: 'Dancing Script';color: #fff;font-weight: normal;z-index: 9;position: relative;margin: 0;font-size: 26px;}
+.gift-items .token-no{font-size: 24px;line-height: 24px;color: #fff;position: absolute;bottom: 20px;right: 20px;}
+.gift-items .card-wrapper p {font-size: 12px;color: #111115;font-weight: 500;margin: 0;}
+/*responsive*/
+@media only screen and (max-width:5000px) and (min-width: 3501px){ 
+    .nfts-collection-wrapper .card {margin: 0 1% 20px;width: 9%;}
+    .collection-card-wrapper .card{margin: 0 1% 20px;width: 9%; }
+}
+@media only screen and (max-width:3500px) and (min-width: 2561px){
+    .nfts-collection-wrapper .card {margin: 0 1% 20px;width: 12%;}
+    .collection-card-wrapper .card{margin: 0 1% 20px;width: 12%;}
+}
+@media only screen and (max-width:2560px) and (min-width: 1921px){
+    .nfts-collection-wrapper .card {margin: 0 1% 20px;width: 14%;}
+    .collection-card-wrapper .card{margin: 0 1% 20px;width: 14%;}
+}
+@media only screen and (max-width:1643px){
+    .nft-head-buttons .dropdown-menu.show{transform: translate3d(0px, 48px, 0px) !important;}
+}
+@media only screen and (max-width:1599px){
+    /*collection details*/
+    /* .author-area .nfts-collection-wrapper  .card .image-over {height: 185px !important;width: 185px !important;}  */
+    /*marketplace card*/
+    .nfts-collection-wrapper .card { width: 23%;}
+}
+@media only screen and (max-width:1399px){
+    .popular-collections-area .nfts-collection-wrapper {padding: 0 15px 0 5px;}
+    /*auctions*/
+    .slick-slide .countdown-wrapper div {font-size: 12px;}
+    .budle-wrapper {width: 295px;}
+    /*marketplace card*/
+    .nfts-collection-wrapper .card { width: 31%;}
+    .collection-card-wrapper .card{width: 23%;}
+    .live-auctions-wrapper .card{width: 23%;}
+    .favourite-collection .card {width: 23%;}
+    /*gift cards*/
+    .gift-items .gift-bg {width: 176px;}
+    .gift-items .gift-content {padding: 53px 15px 63px 210px;}
+}
+@media only screen and (max-width:1199px){
+    /*nft details*/
+    .nft-head h3 {font-size: 22px;}
+    /*live auctions*/
+    .countdown-wrapper div {font-size: 13px;}
+    .budle-wrapper {width: 245px;}
+    .live-auctions-wrapper .card {width: 31%;}
+    .favourite-collection .card {width: 31%;}
+    /*react audio player */
+    .react-jinke-music-player {left: 20px !important;}
+    /*tooltip*/
+    .tooltip .tooltiptext > div {padding: 0px 5px;}
+    /*gift cards*/
+    .gift-items .gift-bg img {width: 50px;margin-left: 20px;}
+    .gift-items .gift-bg {width: 135px;}
+    .gift-items .gift-content {padding: 53px 15px 63px 170px;}
+    .gift-items .discount-section {left: 14%;width: 100px;}
+    .gift-items .token-no {font-size: 20px;}
+    .gift-items .discount-circle .discount-percent {font-size: 24px;}
+}
+@media only screen and (max-width:991px){
+    /*marketplace*/
+    .search-filters {flex: 0 0 250px;}
+    .on-auction {padding: 6px 10px;margin: 0 0 10px;}
+    .min-max {padding: 0px 8px;text-align: center;}
+    .explore-area .btn-filled span, .explore-area .btn-outlined span {padding: 9px 25px;font-size: 14px;}
+    /*react select*/
+    .custom-select__single-value {font-size: 14px !important;}
+    .css-9gakcf-option{font-size: 14px !important;}
+    .css-1n7v3ny-option{font-size: 14px !important;}
+    .css-yt9ioa-option{font-size: 14px !important;}
+    .explore-menu {justify-content: center !important;}
+    .profile-detail-banner .card {padding: 50px 12px;}
+    #contact-form.item-form {padding: 50px 12px;}
+    .sell-nft .card { padding: 50px 12px;}
+    .integration-form {padding: 50px 12px !important;}
+    /*collection details*/
+    /* .author-area .nfts-collection-wrapper  .card .image-over {height: 153px !important;width: 153px !important;} */
+    .popular-collections-area .collection-detail-container .card.no-hover {margin: 0 auto;}
+    /*nft details*/
+    .btn-danger {border-radius: 20px !important;}
+    .explore-area .btn-filled span, .explore-area .btn-outlined span {border-radius: 20px;}
+    .button-wrapper .apply-btn {height: 40px;}
+    /*trading hisory*/
+    .activity-area .form-group {flex-direction: column;}
+    .trading-buttons {margin: 0 0 30px;}
+    .d-flex.auction-time-handlers.justify-content-between {flex-direction: column;}
+    .budle-wrapper {width: 100%;margin: 0 0 20px;}
+    .date-picker {width: 100%;}
+    /*marketplace card*/
+    .nfts-collection-wrapper .card { width: 48%;}
+    .collection-card-wrapper .card{width: 31%;}
+    .live-auctions-wrapper .card{width: 48%;}
+    .favourite-collection .card {width: 48%;}
+    /*react audio player*/
+    .react-jinke-music-player {top: 95px !important;}
+    /*create nft*/
+    .create-nft-cross{display: block;}
+    /*two views*/
+    .create-nft-tooltip .desktop-view{display: none !important;}
+    .create-nft-tooltip .mobile-view{display: block !important;}
+    /*gift cards*/
+    .gift-items .card-wrapper { width: 98%;}
+    .gift-items .gift-bg { width: 176px;}
+    .gift-items .gift-bg img { width: 60px; margin-left: 30px;}
+    .gift-items .gift-content { padding: 53px 15px 63px 210px;}
+}
+@media only screen and (max-width:767px){
+    /*marketplace*/
+    /* .d-flex.collection-wrapper {position: relative;z-index: 99;} */
+    .d-flex.collection-wrapper .search-filters {display: none;position: absolute;z-index: 999;width: 50%;background: #331f3a;border-bottom: 1px solid;top: 0; left: -2px;}
+    .side-toggle-btn {display: block;position: absolute;right: 20px;background: linear-gradient(270deg, rgba(216,23,150,1) 0%, rgba(142,63,197,1) 100%);color: #fff !important;border: 1px solid #d81796;padding: 5px 10px;top: 20px;}
+    .explore-items {padding-top: 60px;padding-bottom: 30px;}
+    .d-flex.collection-wrapper.active .search-filters {display: block;height: calc(100vh - 118px);}
+    .explore-area {position: relative;}
+    .explore-area .items.explore-items {padding: 117px 0px 30px;}
+    .close-icon p{font-size: 13px;}
+    .cal-width{width: calc(100% - 1em);}
+    .collection-wrapper { position: relative;}
+    .popular-collections-area .d-flex.collection-wrapper.active .search-filters {height: 100% !important;}
+    .collection-detail-wrapper .side-toggle-btn {display: block !important;}
+    .collection-wrapper .side-toggle-btn{display: block;}
+    /*nft details*/
+    .filter-wrapper { margin-right: 0px !important;}
+    /*how it works*/
+    .h-it-w .hiw-content {width: 100%;}
+    /*aurthor page*/
+    .author-area .collection-wrapper .side-toggle-btn{top: 60px !important;}
+    /*live auctions*/
+    .live-auctions-area .card.m-3 {max-width: 360px;margin: 0 auto 30px!important;}
+    .sell-nft button.ethereum-btn {height: 55px;}
+    .collection-card-wrapper .card{width: 48%;}
+    .activity-area .netstorm-tab.nav-tabs {justify-content: center;}
+    /*tooltip*/
+    .tooltip .tooltiptext > div {width: 33.33%;}
+    .tooltip .tooltiptext {width: 400px;left: -1925%;}
+    /**/
+    .price-text.position-relative label.text-danger {position: static;}
+     /*gift cards*/
+     .gift-items .gift-bg img {width: 50px;margin-left: 20px;}
+     .gift-items .gift-bg {width: 146px;}
+     .gift-items .gift-content {padding: 53px 15px 63px 185px;}
+}
+@media only screen and (max-width:575px){
+    /*react select*/
+    .custom-select__single-value {font-size: 13px !important;}
+    .css-9gakcf-option{font-size: 13px !important;}
+    .css-1n7v3ny-option{font-size: 13px !important;}
+    .css-yt9ioa-option{font-size: 13px !important;}
+    /*marketplace*/
+    .search-filters {flex: 0 0 220px;}
+    .explore-area .btn-filled span, .explore-area .btn-outlined span {padding: 10px 21px;font-size: 12px;}
+    .explore-area .label-tag {font-size: 13px;}
+    .filter-item span {font-size: 13px;}
+    .tab-icon .angle-down {font-size: 13px;}
+    /* .d-flex.collection-wrapper.active .filter-wrapper {height: calc(100vh - 129px);} */
+    body .intro {flex-direction: column;align-items: flex-start !important;}
+    .my-col-btn a {padding-left: 0;}
+    .intro-content h3 { margin: 0 0 30px !important;}
+    .author-area .item-form .form-group input, .author-area .item-form .form-group textarea, .author-area .item-form .form-group select, .author-area .item-form .form-group .custom-file-input, .author-area .item-form .form-group .custom-file-label, .author-area .item-form .form-group .custom-file-label::after {font-size: 12px !important;padding: 15px 10px !important;}
+    .image-over-1 {max-width: 100%;}
+    .collection-detail-container .input-group {padding: 10px 60px 10px 25px !important;}
+    .collection-detail-container .input-group-append .form-control {text-align: center;}
+    .collection-detail-container .input-group-append { position: absolute; right: 0; top: 50% !important; transform: translateY(-50%); height: auto !important;}
+     /*nft details*/
+     .market-tabs-wrapper .nav-item-wrapper {width: 100%;}
+     .nft-select .form-control {margin: 15px 0px;}
+    .d-flex.auction-time-handlers.justify-content-between {flex-direction: column;}
+    .budle-wrapper {width: 100%;}
+    .budle-wrapper input[type="time"] {margin: 15px 0px;}
+    /*activity page*/
+    .activity-area .tab-content .single-tab-list {text-align: center;align-items: center;}
+    .activity-area .tab-content .single-tab-list img {margin: 0 0 20px;}
+    .activity-area .tab-content .activity-content {margin: 0 !important;width: 100%;}
+    /*live auctions*/
+    .live-auctions-area .card.m-3 {max-width: 330px;}
+    /**/
+    .aurthor-wallet-address {width: 100% !important;}
+    .sell-nft .nft-select select#currency {border-top-right-radius: 10px !important;border-bottom-right-radius: 10px !important;}
+    .sell-nft input.amount-btn {border-top-left-radius: 10px !important;border-bottom-left-radius: 10px !important; margin: 0 0 10px !important;}
+    .sell-nft .ethereum-input input.amount-btn.flex-fill {border-top-left-radius: 10px !important;border-bottom-left-radius: 10px !important;margin: 0 0 10px !important;}
+    .sell-nft .market-tab-content input {margin: 0 !important;}
+    .sell-nft .nft-select select#currency { width: 100%;}
+    .sell-nft .ethereum-input { width: 100%;}
+    .sell-nft .last-sell-nft{flex-direction: column; justify-content: center; align-items: center;}
+    .sell-nft button.ethereum-btn {height: 55px;width: 100%;border-top-right-radius: 10px !important; border-bottom-right-radius: 10px !important;}
+    .calender-btn {height: 43px;}
+    .date-picker {width: 100%;height: 55px;}
+    /*place a bid*/
+    .d-flex.bid-main-tag {flex-direction: column;}
+    .bid-select-1{width: 100%;margin: 0 0 15px;}
+    .bid-select {width: 100%;margin: 0 0 15px;}
+    .bid-main-tag select {border-top-right-radius: 10px !important;border-bottom-right-radius: 10px !important;}
+    .modal-content .bid-amount {width: 100% !important;}
+    .bid-amount input {border-top-left-radius: 10px !important;border-bottom-left-radius: 10px !important;}
+    .live-auctions-area .card-caption .countdown-wrapper div {font-size: 12px;}
+    /*stake nft*/
+    .stake-select {width: 100%;}
+    .stake-select select {border-top-right-radius: 10px !important;border-bottom-right-radius: 10px !important;}
+    .stake-ethereum-input {width: 100%;}
+    .stake-ethereum-input input {border-top-left-radius: 10px !important;border-bottom-left-radius: 10px !important;}
+    /*react tool tip*/
+    .__react_component_tooltip.show {max-width: 300px;}
+    /*tooltip*/
+    .format-heads{font-size: 12px;}
+    /*gift cards*/
+    .gift-items .card-wrapper {width: 100%;margin: 0 0% 20px;}
+    .gift-items .gift-bg {width: 130px;}
+    .gift-items .discount-section {left: 13%;width: 90px;}
+    .gift-items .gift-content {padding: 50px 15px 50px 160px;}
+    .gift-items .token-no {font-size: 18px;}
+    .gift-items .discount-circle .discount-percent {font-size: 22px;}
+}
+@media only screen and (max-width:479px){
+    /*aurthor area*/
+    .profile-detail-banner .card {padding: 35px 12px;}
+    #contact-form.item-form {padding: 35px 12px;}
+    .sell-nft .card { padding: 35px 12px;}
+    .integration-form {padding: 35px 12px !important;}
+    .author-area .item-form .form-group input, .author-area .item-form .form-group .custom-file-input, .author-area .item-form .form-group .custom-file-label, .author-area .item-form .form-group .custom-file-label::after {font-size: 13px;}
+    .profile-detail-banner #nft-imasge-label {font-size: 13px;}
+    .meta-tag .btn-filled span, .meta-tag .btn-outlined span {padding: 10px 36px 10px !important;font-size: 13px;}
+    .faq-area p {font-size: 14px;}
+    .faq-area .card-header .btn {font-size: 14px;}
+    /* .d-flex.collection-wrapper .filter-wrapper {width: 80%;} */
+    .d-flex.collection-wrapper .search-filters {width: 80%;}
+    .author-area .create-item-form {padding: 50px 10px !important;}
+    .input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3), .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {width: 100%;}
+    .input-group>.input-group-prepend>.input-group-text {border-top-right-radius: 10px !important;border-bottom-right-radius: 10px !important;margin: 0 0 10px;width: 100%;}
+    .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {border-top-left-radius: 10px !important;border-bottom-left-radius: 10px !important;}
+    .form-check-label {font-size: 13px;}
+    .popular-collections-area .d-flex.collection-wrapper.active .search-filters { width: 68% !important;} 
+    .collection-detail-container .card-caption { width: 100%;}
+    #collection-det-add { word-break: break-all;}
+    .properties-tab .m-3.card.no-hover {width: 100%;}
+    /*nft details*/
+    .nft-head {flex-direction: column;}
+    .nft-head h3 {max-width: 100%;font-size: 22px;margin: 0 0 20px !important;}
+    .nft-head .nft-head-buttons {width: 100%;justify-content: center !important;}
+    /*report modal*/
+    .modal-footer button {height: 50px;min-width: 197px;}
+    .collection-wrapper .side-toggle-btn { right: 26px !important;}
+    .complete-listing-btn span {padding: 12px 35px 12px !important;}
+    /*trading history*/
+    .trading-buttons {flex-direction: column;display: flex;justify-content: center;align-items: center;width: 100%;}
+    .trading-buttons button{width: 100%;margin: 10px 0px ;}
+    /*hoe it works*/
+    .h-it-w .hiw-content {padding: 0 !important;}
+    /*collection detail*/
+    .collection-detail-wrapper .side-toggle-btn {right: 35px !important;}
+    /*live auctions*/
+    .live-auctions-area .card.m-3 {max-width: 290px;}
+    /*sell nft*/
+    .sell-nft .reverse-price {flex-direction: column;}
+    .sell-nft .price-text { margin: 0 0 10px;}
+    /*marketplace card*/
+    .nfts-collection-wrapper .card { width: 98%;}
+    .collection-card-wrapper .card{width: 98%;}
+    .live-auctions-wrapper .card{width: 98%;}
+    .favourite-collection .card {width: 98%;}
+    /**/
+    .min-max-number {flex-direction: column;}
+    .min-max-number input{margin: 0 !important;}
+    /*profile-img*/
+    .profile-img-in .image-over {width: 200px !important;height: 200px !important;}
+    /*create-nft*/
+    .create-nft .image-over {width: 200px !important;height: 200px !important;}
+    /*items details*/
+    .item-details-area .price {flex-direction: column;}
+    .item-details-area .card {padding: 20px 12px;}
+    .item-details-area h4 { margin: 0 0 20px !important;}
+    .activity-area .netstorm-tab.nav-tabs {border-bottom: none;}
+    .wallet-connect-area .card {padding: 45px 12px;}
+    .signup-card{padding: 45px 12px !important;}
+    /*react tool tip*/
+    .__react_component_tooltip.show {max-width: 100%;}
+    /*toltip*/
+    .tooltip .tooltiptext > div {width: 50%;}
+    .tooltip .tooltiptext {width: 268px;left: -1546%;}
+    .formats {font-size: 10px;}
+    .format-heads {font-size: 11px;}
+    .format-main-head {font-size: 14px;}
+    .tooltip .pink-color {font-size: 14px;}
+    /*gift cards*/
+    .gift-items .gift-bg {background-color: rgba(0, 0, 0, 0.8);width: auto;height: 110px;right: 1px;left: 1px;top: 1px;border-top-left-radius: 10px;border-top-right-radius: 10px;bottom: auto;clip-path: none;}
+    .gift-items .discount-section {left: auto;width: 90px;right: 20px;top: 52px;}
+    .gift-items .gift-content {padding: 120px 12px 50px 12px;}
+    .gift-items .gift-content h2 {font-size: 23px;}
+}
+@media only screen and (max-width:319px){
+    /*aurthor area*/
+    .author-area .item-form .form-group input, .author-area .item-form .form-group .custom-file-input, .author-area .item-form .form-group .custom-file-label, .author-area .item-form .form-group .custom-file-label::after {font-size: 12px;}
+    .profile-detail-banner #nft-imasge-label {font-size: 12px;}
+    .meta-tag .btn-filled span, .meta-tag .btn-outlined span {padding: 8px 30px 8px !important;font-size: 12px;}
+    .side-toggle-btn {right: 8px;}
+    .explore-area .explore-menu .btn {font-size: 12px;}
+    .collection-wrapper .side-toggle-btn {right: 20px !important;}
+    .countdown-times {padding: 10px 3px;text-align: center;}
+    /*nft-detail*/
+    .nft-head-buttons .dropdown-menu.show { transform: translate3d(25px, 48px, 0px) !important;}
+    /*collection detail*/
+    .collection-detail-wrapper .side-toggle-btn {right: 35px !important;}
+    .live-auctions-area .card.m-3 {max-width: 100%;}
+    /*nft report*/
+    .nft-report .form-control:disabled, .nft-report .form-control[readonly] {font-size: 13px;}
+    /*item details*/
+    .item-details-area h4 {font-size: 18px;}
+    .nfts-collection-wrapper .card .card-caption {padding: 10px 15px;}
+    /*tooltip*/
+    .tooltip .tooltiptext {width: 229px;left: -1249%;padding: 30px 5px 5px;}
+    .tooltip .tooltiptext > div {padding: 0px 2px;}
+}

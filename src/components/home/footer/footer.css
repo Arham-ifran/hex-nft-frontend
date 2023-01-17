@@ -1,0 +1,57 @@
+#footer{padding:45px 0 0;}
+#footer:after{content:"";position: absolute;left: 0;top:0;right:0;bottom: 0;background: rgb(216,23,150);background: linear-gradient(0deg, rgba(216,23,150,1) 0%, rgba(142,63,197,1) 100%);z-index:-1;opacity:0.20;}
+#footer ul li{margin:0 15px;}
+#footer ul a, #footer ul a:focus {color: #fff;}
+#footer ul a:hover{color:#E40C4F;}
+#footer h3{font-size:18px;line-height:22px;margin:0 0 40px;}
+#footer .about-hex{max-width:260px;font-size:16px;line-height:25px;margin:0 0 40px;}
+#footer .footer-widget h3{font-size:18px;line-height:22px;}
+#footer .social-links{font-size:22px;flex-wrap: wrap;width: 80%;}
+#footer .social-links li{margin:0 10px 10px 0;}
+#footer .social-links a{width:46px;height:46px;overflow: hidden;background:#fff; border: 1px solid #fff;}
+#footer .social-links li.facebook a{color:#1877f2;}
+#footer .social-links li.medium a{color:#02b875;}
+#footer .social-links li.linkedin a{color:#0a66c2;}
+#footer .social-links li.instagram a{color:#c32aa3;}
+#footer .social-links li.youtube a{color:#ff0000;}
+#footer .social-links li.twitter a{color:#1da1f2;}
+#footer .social-links li.discord a{color:#5865f2;}
+#footer .social-links li.reddit a{color:#ff4500;}
+#footer .social-links li.github a{color:#171515;}
+#footer .social-links li.telegram a{color:#0088cc;}
+#footer .social-links li a:hover{color:#fff; border: 1px solid #fff;}
+#footer .social-links li.facebook a:hover{background:#1877f2;}
+#footer .social-links li.medium a:hover{background:#02b875;}
+#footer .social-links li.linkedin a:hover{background:#0a66c2;}
+#footer .social-links li.instagram a:hover{background:#c32aa3;}
+#footer .social-links li.youtube a:hover{background:#ff0000;}
+#footer .social-links li.twitter a:hover{background:#1da1f2;}
+#footer .social-links li.discord a:hover{background:#5865f2;}
+#footer .social-links li.reddit a:hover{background:#ff4500;}
+#footer .social-links li.github a:hover{background:#171515;}
+#footer .social-links li.telegram a:hover{background:#0088cc;}
+#footer .footer-nav-holder{margin:0 0 100px;}
+#footer .footer-nav{font-size:16px;line-height:19px;}
+#footer .footer-nav li{margin:0 0 25px;}
+#footer .footer-nav a{color:#fff;}
+#footer .footer-nav a:after{content:"";width:0;height:2px;position: absolute;left:0;bottom:-4px;background: rgb(216,23,150);background: linear-gradient(270deg, rgba(216,23,150,1) 0%, rgba(142,63,197,1) 100%);transition:all ease-in-out 0.3s;}
+#footer .footer-nav a:hover{color:#D81796;}
+#footer .footer-nav a:hover:after{width:100%;}
+#footer .bottom-footer:before{content:"";height:2px;position: absolute;left:0;top:0;right:0;background: rgb(227,13,84);background: linear-gradient(180deg, rgba(227,13,84,1) 0%, rgba(220,21,140,1) 100%);opacity:0.3;}
+#footer .bottom-footer{padding:35px 0;}
+#footer .copyright-text{font-size:16px;line-height:19px;}
+#footer .footer-widget { margin: 0 0 25px;}
+#footer .gaming-img {display: inline-block;width: 46px; height: 46px; border-radius: 50%; overflow: hidden;}
+#footer .gaming-img img{width: 100%; height: 100%; object-fit: cover;}
+#footer .gaming-head {color: #fff;font-size: 17px;}
+#footer .gaming-head:hover{color: #c32aa3;}
+/*responsive*/
+@media only screen and (max-width:1199px){
+    #footer .social-links { width: 100%;}
+}
+@media only screen and (max-width:991px){
+    #footer .about-hex{max-width:100%;margin:0 0 30px;}
+    #footer .footer-widget{margin:0 0 30px;}
+    #footer .footer-nav-holder{margin:0 0 50px;}
+    #footer .web-owner-link { margin: 0 0 40px;}
+}

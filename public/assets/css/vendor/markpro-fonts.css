@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'MarkPro';
+    src: url('../../fonts/MarkPro-Black.woff2') format('woff2'),
+    url('../../fonts/MarkPro-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+    }
+    
+    @font-face {
+    font-family: 'MarkPro';
+    src: url('../../fonts/MarkPro-Bold.woff2') format('woff2'),
+    url('../../fonts/MarkPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    }
+    
+    @font-face {
+    font-family: 'MarkPro';
+    src: url('../../fonts/MarkPro.woff2') format('woff2'),
+    url('../../fonts/MarkPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    }
+    
+    @font-face {
+    font-family: 'MarkPro-Book';
+    src: url('../../fonts/MarkPro-Book.woff2') format('woff2'),
+    url('../../fonts/MarkPro-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    }
+    
+    @font-face {
+    font-family: 'MarkPro';
+    src: url('../../fonts/MarkPro-ExtraLight.woff2') format('woff2'),
+    url('../../fonts/MarkPro-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+    }
+    
+    @font-face {
+    font-family: 'MarkPro';
+    src: url('../../fonts/MarkPro-Light.woff2') format('woff2'),
+    url('../../fonts/MarkPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    }
+    
+    @font-face {
+    font-family: 'MarkPro';
+    src: url('../../fonts/MarkPro-Medium.woff2') format('woff2'),
+    url('../../fonts/MarkPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    }
+    
+    @font-face {
+    font-family: 'MarkPro';
+    src: url('../../fonts/MarkPro-Heavy.woff2') format('woff2'),
+    url('../../fonts/MarkPro-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+    }

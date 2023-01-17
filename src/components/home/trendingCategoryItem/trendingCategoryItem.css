@@ -1,0 +1,22 @@
+.trending-category-item{padding:1px;border-radius:25px;overflow:hidden;background: rgb(13,224,232);background: linear-gradient(0deg, rgba(13,224,232,1) 0%, rgba(203,3,251,1) 100%);width: 100%;}
+.trending-category-item .item-holder{background:#090000;border-radius: 25px;overflow:hidden;padding:18px;}
+.trending-category-item .item-holder.landscape-image{height:365px;}
+.trending-category-item .item-holder.portrait-image{height:758px;}
+.trending-category-item .item-holder img{width:100%;height:100%;object-fit:Cover;border-radius:25px;padding: 0 !important;}
+.trending-category-item .category-detail-block:before{content:"";border-radius:25px;position: absolute;top:0;right:0;bottom:0;left:0;background: rgb(216,23,150);background: linear-gradient(180deg, rgba(216,23,150,1) 0%, rgba(142,63,197,1) 100%);opacity:0.58;}
+.trending-category-item .category-detail-block{font-size:16px;line-height:25px;border-radius:25px;width:80%;padding:30px;max-width:370px;position: absolute;left:50%;bottom:50px; transform: translateX(-50%); z-index: 99;}
+.trending-category-item .portrait-image .category-detail-block{right:37px;}
+.trending-category-item .category-image-holder{width:50px;height:50px;border:1px solid #FCFBFB;border-radius:100%;overflow: hidden;margin:0 15px 0 0;}
+.trending-category-item .category-detail-holder{width:calc(100% - 65px);}
+.trending-category-item .category-image-holder img{width:100%;height:100%;object-fit: cover;}
+.trending-category-item  .category-name{display: inline-block;  font-weight: 900; transition: all ease-in-out 0.3s;}
+.trending-category-item  .category-name:hover{color: #2a0021; font-weight: 900; }
+.trending-category-item  .owner-name {display: inline-block;  font-weight: 900; transition: all ease-in-out 0.3s;}
+.trending-category-item  .owner-name:hover{color: #2a0021; font-weight: 900; }
+.trending-category-item .main-img{width: 100%; height: 100%; overflow: hidden;    border-radius: 25px;}
+/*resposnive*/
+@media only screen and (max-width:767px){
+    .trending-category-item .category-detail-block{padding:20px;}
+    .trending-category-item .category-image-holder{width:40px;height:40px;margin: 0 10px 0 0;}
+    .trending-category-item .category-detail-holder{width:calc(100% - 50px);}
+}

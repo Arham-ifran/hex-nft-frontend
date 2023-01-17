@@ -1,0 +1,94 @@
+#main-banner{padding:70px 0;background-color:#090000;background-image:url('https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1652166673/hex-nft/assets/banner-bg_ztbqhz.png');background-size:cover;background-position:center center;}
+#main-banner .banner-content{font-size:26px;line-height:39px;}
+#main-banner h1{font-size:52px;line-height:57px;}
+#main-banner .banner-content .btns-holder{padding:50px 0 0;}
+#main-banner .banner-content-img .image-holder{height: calc(100% - 119px);}
+#main-banner .banner-content-img .image-holder .banner-img{width: 100%;height: 100%; object-fit: cover;}
+#main-banner .banner-content-img{width:602px;height:723px;padding:86px 80px 82px 82px;background-image:url('https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1652166674/hex-nft/assets/banner-img-bg_p01vr1.png');background-size: cover;background-position:center center}
+#main-banner .item-price-details{position: absolute;left: 0;right:0;bottom:10px;padding:0 50px;font-size:16px;line-height:19px;color:#000;}
+#main-banner .detail-col{width:50%;background:rgba(255,255,255,0.69);padding:10px;}
+#main-banner .item-price-details .detail-label{color:#000;}
+#main-banner .nft-details{background:#fff;padding:37px 30px;}
+#main-banner .nft-details .image-holder{width:42px;height:42px;border-radius:100%;margin: 0 15px 0 0;overflow: hidden;}
+#main-banner .nft-details .image-holder img{width:100%;height:100%;object-fit: cover;}
+#main-banner .nft-details .nft-name{font-size:19px;line-height:22px;color:#070101;}
+#main-banner .nft-details .author-name{font-size:15px;line-height: 23px; /* color:#A0A0A4; */ color: #757578;}
+/*slider*/
+#main-banner .slick-slider {width: 100%;height: 100%;}
+#main-banner .slick-prev, #main-banner .slick-next{display: none !important;}
+#main-banner .slick-dots{display: none !important;}
+#main-banner .slick-list {height: 100%;}
+#main-banner .slick-track {height: 100%;}
+#main-banner .slider-main{height: 100%;}
+#main-banner .slick-slide > div {height: 100%;}
+#main-banner .slick-slide img{padding-left: 0 !important;}
+/**/
+.main-banner-fixed-width {height: 723px;}
+/*responsiveness*/
+@media only screen and (max-width:1399px){
+	#main-banner .banner-content{font-size:24px;line-height:37px;}
+	#main-banner .banner-content-img{width:546px;height:679px;padding:81px 70px 76px 73px;}
+	#main-banner h1{font-size:42px;line-height:50px;}
+	#main-banner .banner-content .btns-holder{padding:30px 0 0;}
+	.main-banner-fixed-width {height: 679px;}
+}
+@media only screen and (max-width:1199px){
+	#main-banner .banner-content{font-size:20px;line-height:29px;}
+	#main-banner h1{font-size:35px;line-height:45px;}
+	#main-banner .banner-content-img{width:440px;height:529px;padding:67px 59px 62px 63px;}
+	#main-banner .banner-content-img .image-holder {height: calc(100% - 82px);}
+	#main-banner .item-price-details{padding:0 15px;font-size:14px;line-height:17px;}
+	#main-banner .nft-details{padding:20px 15px;}
+	#main-banner .nft-details .nft-name{font-size:16px;line-height:20px;}
+	#main-banner .nft-details .author-name{font-size:14px;line-height:17px;}
+	.main-banner-fixed-width {height: 529px;}
+}
+@media only screen and (max-width:991px){
+	#main-banner{padding:50px 0;}
+	#main-banner .banner-content{font-size:16px;line-height:26px;}
+	/* #main-banner h1{font-size:24px;line-height:36px;} */
+	#main-banner .banner-content-img{width:336px;height:414px;padding:50px 44px 46px 44px;}
+	#main-banner .banner-content-img .image-holder {height: calc(100% - 68px);}
+	#main-banner .item-price-details{padding:0;}
+	#main-banner .detail-col{padding:5px;}
+	#main-banner .nft-details{padding:13px 10px;}
+	#main-banner .nft-details .nft-name{font-size:14px;line-height:18px;}
+	.main-banner-fixed-width {height: 414px;}
+}
+@media only screen and (max-width:767px){
+	#main-banner{padding: 50px 0 30px;}
+	#main-banner .banner-content-img{width:516px;height:602px;padding:65px 68px 60px 72px}
+	#main-banner .banner-content-img .image-holder {height: calc(100% - 99px);}
+	#main-banner .item-price-details{padding:0 10px;}
+	#main-banner .nft-details{padding:27px 10px;}
+	#main-banner .nft-details .nft-name{font-size:20px;line-height:26px;}
+	#main-banner .nft-details .author-name{font-size:16px;line-height:19px;}
+	.main-banner-fixed-width {height: auto;}
+
+}
+@media only screen and (max-width:575px){
+	#main-banner .banner-content-img{width: 370px;height: 450px;margin: 0 auto;padding: 54px 51px 36px 52px;}
+	#main-banner .banner-content-img .image-holder {height: calc(100% - 75px);}
+	#main-banner .detail-col{width:100%;}
+	#main-banner h1{font-size:30px;line-height:40px;}
+	#main-banner .banner-content .btns-holder{padding:10px 0 0;}
+	#main-banner .nft-details{padding: 12px 10px;}
+	#main-banner .nft-details .image-holder{width:35px;height:35px;margin:0 10px 0 0;}
+	#main-banner .nft-details .nft-name,
+	#main-banner .nft-details .author-name{font-size:14px;line-height:17px;}
+	/* .main-banner-fixed-width {height: 450px;} */
+}
+@media only screen and (max-width:479px){
+	#main-banner .banner-content-img {width: 296px;height: 350px;margin: 0 auto;padding: 45px 44px 42px 44px;}
+	/* .main-banner-fixed-width {height: 350px;} */
+	#main-banner h1 {font-size: 26px;line-height: 40px;}
+}
+@media only screen and (max-width:319px){
+	#main-banner .banner-content{font-size:14px;line-height:20px;}
+	#main-banner h1{font-size:20px;line-height:30px;}
+	/* #main-banner .banner-content-img{width:256px;height:302px;padding:18px 20px 20px 21px;} */
+	#main-banner .banner-content-img {width: 256px;height: 350px;padding: 44px 23px 41px 24px;}
+	#main-banner .nft-details{left:21px;right:20px;bottom:18px;}
+	/* .main-banner-fixed-width {height: 450px;} */
+
+}

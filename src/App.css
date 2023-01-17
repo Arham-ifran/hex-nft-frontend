@@ -1,0 +1,33 @@
+/* Embedded Font Families */
+@font-face {font-family: 'Poppins';src:url('./assets/fonts/Poppins-Regular.woff2') format('woff2'),url('./assets/fonts/Poppins-Regular.woff') format('woff');font-weight: normal;font-style: normal;font-display: swap;}
+@font-face {font-family: 'Poppins';src:url('./assets/fonts/Poppins-Bold.woff2') format('woff2'),url('./assets/fonts/Poppins-Bold.woff') format('woff');font-weight: bold;font-style: normal;font-display: swap;}
+@font-face {font-family: 'Dancing Script';src: url('./assets/fonts/DancingScript-Regular.woff2') format('woff2'),    url('./assets/fonts/DancingScript-Regular.woff') format('woff');font-weight: normal;font-style: normal;font-display: swap;}
+
+/* Reset Styles */
+body{min-width:280px;font-family: 'Poppins';background:#000;}
+a{text-decoration: none;color:#D81796;}
+.ff-poppins{font-family: 'Poppins';}
+/* Custom Classses */
+#root{overflow: hidden;}
+.cursor-pointer{cursor:pointer;}
+.not-allowed{cursor:not-allowed;}
+.transition{transition:all ease-in-out 0.3s;}
+.btn-gradiant-bg{border-radius:20px;font-size:16px;line-height:20px;overflow: hidden;background: rgb(13,224,232);background: linear-gradient(0deg, rgba(13,224,232,1) 0%, rgba(203,3,251,1) 100%);padding:1px;}
+.btn-gradiant-bg span.outer{display:block;height:100%;background:#000206;padding:15px 60px;border-radius:20px;overflow: hidden;}
+.btn-gradiant-bg span.inner{color:#fff}
+.btn-gradiant-bg:hover span.inner{background-color: red;background-image: linear-gradient(45deg, #f3ec78, #af4261);background-size: 100%;background-repeat: repeat;-o-background-clip: text;-ms-background-clip: text;-moz-background-clip: text;-webkit-background-clip: text;background-clip: text;-moz-text-fill-color: transparent;-webkit-text-fill-color: transparent;}
+.btn-filled, .btn-outlined{font-size:16px;line-height:25px;border-radius:25px;overflow: hidden;background: rgb(216,23,150);background: linear-gradient(270deg, rgba(216,23,150,1) 0%, rgba(142,63,197,1) 100%);padding:1px;}
+.btn-filled span,.btn-outlined span{border-radius:25px;overflow: hidden;padding:18px 70px 17px;color:#fff;}
+.btn-filled span,.btn-outlined:hover span{background: rgb(216,23,150);background: linear-gradient(270deg, rgba(216,23,150,1) 0%, rgba(142,63,197,1) 100%);}
+.btn-outlined span,.btn-filled:hover span{background:#090000;}
+.btn-white-outline,.btn-white-outline:focus{border:1px solid #fff;border-radius:25px;padding:7px 35px;background:transparent;color:#fff;}
+.btn-white-outline:hover{background:#fff;color:#D81796;}
+.slick-slider{width:100%;}
+@media only screen and (max-width:1199px){
+	.btn-gradiant-bg span.outer{padding:10px 20px;}
+}
+@media only screen and (max-width:991px){
+	.btn-filled, .btn-outlined,
+	.btn-filled span, .btn-outlined span{border-radius:20px;}
+	.btn-filled span, .btn-outlined span{padding:7px 20px 7px;}
+}

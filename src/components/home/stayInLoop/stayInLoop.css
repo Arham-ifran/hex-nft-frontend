@@ -1,0 +1,52 @@
+.stay-in-loop {padding:50px 0 100px;}
+.stay-in-loop .stay-in-loop-holder{height:378px;padding:65px 35px;border-radius:20px;background:url('https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1652166723/hex-nft/assets/stay-in-loop-bg_dhywio.png'); background-size:cover;}
+.stay-in-loop h2{font-size:38px;line-height:42px;margin:0 0 30px;}
+.stay-in-loop .signup-form-holder{max-width:395px;font-size:16px;line-height:25px;}
+.stay-in-loop .signup-form-holder p{margin:0 0 50px;}
+.stay-in-loop .signup-form .form-control{height:60px;border:none !important;border-radius:25px !important;background:rgba(148,4,74,.41) !important;font-size:16px;line-height:20px;color:#fff;padding:15px 165px 15px 35px;}
+.stay-in-loop .signup-form .form-control:focus{border:none;outline:none;box-shadow: none;background:rgba(148,4,74,.41) !important;}
+.stay-in-loop .signup-form .form-control::-webkit-input-placeholder {color:#fff;}
+.stay-in-loop .signup-form .form-control:-moz-placeholder {color:#fff;opacity:1;}
+.stay-in-loop .signup-form .form-control::-moz-placeholder {color:#fff;opacity:1;}
+.stay-in-loop .signup-form .form-control:-ms-input-placeholder {color:#fff;}
+.stay-in-loop .signup-form .form-control::-ms-input-placeholder {color:#fff;}
+.stay-in-loop .signup-form .form-control::placeholder {color:#fff;}
+.stay-in-loop .signup-form button[type="button"],.stay-in-loop .signup-form button[type="button"]:focus{width:155px;height:60px;background:#fff;position: absolute;top:0;right:0;font-size:16px;line-height:19px;color:#040101;border:2px solid #fff;outline:none;border-radius:25px;}
+.stay-in-loop .signup-form button[type="button"]:hover{background:transparent;color:#fff;}
+.stay-in-loop .lottie-animation-holder{width:344px;height:344px;border-radius:100%;overflow: hidden;}
+.stay-in-loop .lottie-animation-holder:after{content:"";width:100%;height:100%;position: absolute;left: 0;top:0;border-radius: 100%;overflow: hidden;background:#fff;opacity:0.44;}
+.stay-in-loop .lottie-animation-holder > div{position: relative;z-index:1;width:100%;height:100%;}
+@media only screen and (max-width:1399px){
+    /* .stay-in-loop {padding:100px 0;} */
+}
+@media only screen and (max-width:1199px){
+    /* .stay-in-loop {padding:80px 0;} */
+}
+@media only screen and (max-width:991px){
+    .stay-in-loop {padding:50px 0 50px;}
+    .stay-in-loop .stay-in-loop-holder{height:340px;padding:40px 25px;}
+    .stay-in-loop h2{font-size:32px;line-height:36px;}
+    .stay-in-loop .signup-form-holder p{margin:0 0 30px;}
+    .stay-in-loop .signup-form-holder{max-width:calc(100% - 265px);}
+    .stay-in-loop .lottie-animation-holder{width:250px;height:250px;}
+}
+@media only screen and (max-width:767px){
+    .stay-in-loop .stay-in-loop-holder{height:auto;background-position:70% 100%;}
+    /* .stay-in-loop {padding:30px 0;} */
+    .stay-in-loop .signup-form-holder{width:100%;max-width:100%;}
+    .stay-in-loop .lottie-animation-holder{width:466px;height:466px;}
+}
+@media only screen and (max-width:575px){
+    .stay-in-loop .lottie-animation-holder{width:400px;height:400px;}
+    .stay-in-loop .signup-form button[type="button"], .stay-in-loop .signup-form button[type="button"]:focus {position: static;}
+    .stay-in-loop .signup-form .form-control {padding: 15px 20px 15px 20px;margin: 0 0 20px;}
+    .stay-in-loop .signup-form{text-align: center;}
+}
+@media only screen and (max-width:479px){
+    .stay-in-loop .lottie-animation-holder{width:245px;height:245px;}
+    .stay-in-loop .stay-in-loop-holder {padding: 40px 12px;}
+}
+@media only screen and (max-width:319px){
+    .stay-in-loop .lottie-animation-holder{width:205px;height:205px;}
+    .stay-in-loop .signup-form .form-control {font-size: 13px;}
+}

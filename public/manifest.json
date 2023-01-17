@@ -1,0 +1,15 @@
+{
+  "short_name": "HEX NFT",
+  "name": "HEX NFT Marketplace",
+  "icons": [
+    {
+      "src": "https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1652166289/hex-nft/assets/favicon_gxrpra.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
